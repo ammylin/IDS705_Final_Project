@@ -1,0 +1,721 @@
+noise_type,noise_label,amount,amount_level,param_label,feature,feature_group,model,rmse,r2,rmse_delta,rmse_pct
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),MonsoonIntensity,Physical / Environmental,Linear Regression,0.0001096586286362106,0.9999951718125487,0.0001096586286357853,25783400597520.207
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),MonsoonIntensity,Physical / Environmental,XGBoost,0.010958623212153401,0.9517818557312027,2.8803928417206817e-05,0.26353526686454626
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),TopographyDrainage,Physical / Environmental,Linear Regression,0.00011540723150730175,0.9999946523306344,0.00011540723150687644,27135036419938.555
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),TopographyDrainage,Physical / Environmental,XGBoost,0.010809445317818687,0.9530856914394027,-0.00012037396591750744,-1.1013353724578638
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),RiverManagement,Infrastructure,Linear Regression,0.00011568281823938412,0.9999946267602031,0.00011568281823895882,27199833538059.023
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),RiverManagement,Infrastructure,XGBoost,0.010968135720468668,0.9516981089751647,3.831643673247315e-05,0.35056788898137436
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),Deforestation,Human / Land Use,Linear Regression,0.0001125562915496487,0.9999949132774091,0.0001125562915492234,26464711358225.555
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),Deforestation,Human / Land Use,XGBoost,0.010862984229374234,0.9526198097520796,-6.683505436196058e-05,-0.6114927669610473
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),Urbanization,Human / Land Use,Linear Regression,0.00011804608893932928,0.9999944049791706,0.00011804608893890397,27755495741162.51
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),Urbanization,Human / Land Use,XGBoost,0.010921244277042703,0.9521102307526857,-8.575006693491496e-06,-0.07845515530390598
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),ClimateChange,Socio-Political,Linear Regression,0.00011108679230273404,0.9999950452316467,0.00011108679230230874,26119196479621.734
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),ClimateChange,Socio-Political,XGBoost,0.010876303762484371,0.9525035490825062,-5.351552125182346e-05,-0.4896286010094943
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),DamsQuality,Infrastructure,Linear Regression,0.00011918256818183201,0.9999942967293561,0.00011918256818140671,28022709547725.215
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),DamsQuality,Infrastructure,XGBoost,0.011022494905135469,0.9512181444711856,9.267562139927445e-05,0.8479154045774366
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),Siltation,Physical / Environmental,Linear Regression,0.00011553269781769499,0.9999946406967524,0.00011553269781726968,27164536589534.023
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),Siltation,Physical / Environmental,XGBoost,0.010805980474389965,0.9531157623037377,-0.00012383880934623004,-1.1330362024421103
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),AgriculturalPractices,Human / Land Use,Linear Regression,0.00010881731556577306,0.9999952456131267,0.00010881731556534775,25585587509823.594
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),AgriculturalPractices,Human / Land Use,XGBoost,0.010928537866178383,0.9520462444659029,-1.2814175578117898e-06,-0.0117240507326463
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),Encroachments,Human / Land Use,Linear Regression,0.00011660847719326967,0.9999945404260875,0.00011660847719284437,27417478386637.074
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),Encroachments,Human / Land Use,XGBoost,0.01087280615444187,0.9525340920429136,-5.70131292943251e-05,-0.5216292036883159
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),IneffectiveDisasterPreparedness,Socio-Political,Linear Regression,0.00010996692975371972,0.9999951446258496,0.00010996692975329441,25855889660317.1
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),IneffectiveDisasterPreparedness,Socio-Political,XGBoost,0.01084401994640788,0.9527850952760069,-8.579933732831384e-05,-0.7850023417677645
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),DrainageSystems,Infrastructure,Linear Regression,0.00010611455509433013,0.9999954788551926,0.00010611455509390482,24950103035676.023
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),DrainageSystems,Infrastructure,XGBoost,0.010915848757342875,0.9521575378835283,-1.397052639331986e-05,-0.12782028714883056
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),CoastalVulnerability,Physical / Environmental,Linear Regression,0.00011884350353579813,0.9999943291338722,0.00011884350353537282,27942987233978.4
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),CoastalVulnerability,Physical / Environmental,XGBoost,0.010990038593035411,0.9515050029578377,6.021930929921669e-05,0.5509634490372985
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),Landslides,Physical / Environmental,Linear Regression,0.00011125035527110233,0.9999950306302126,0.00011125035527067702,26157654096581.05
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),Landslides,Physical / Environmental,XGBoost,0.010926857989519046,0.95206098572485,-2.96129421714815e-06,-0.027093716193044647
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),Watersheds,Physical / Environmental,Linear Regression,0.00012106889249625381,0.9999941147672723,0.0001210688924958285,28466230099282.69
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),Watersheds,Physical / Environmental,XGBoost,0.010988320779970607,0.9515201619271559,5.8501496234411934e-05,0.5352466927011631
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),DeterioratingInfrastructure,Infrastructure,Linear Regression,0.00011755688125404676,0.9999944512569524,0.00011755688125362145,27640471160954.43
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),DeterioratingInfrastructure,Infrastructure,XGBoost,0.010935315995840512,0.951986741982697,5.496712104317153e-06,0.05029096970062788
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),PopulationScore,Human / Land Use,Linear Regression,0.0001070971624718105,0.999995394737066,0.00010709716247138519,25181137838489.41
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),PopulationScore,Human / Land Use,XGBoost,0.010949650288371433,0.9518607854644223,1.9831004635238042e-05,0.1814394558631633
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),WetlandLoss,Physical / Environmental,Linear Regression,0.00011755240038359262,0.9999944516799429,0.00011755240038316731,27639417599740.13
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),WetlandLoss,Physical / Environmental,XGBoost,0.010909733430221596,0.952211127917529,-2.0085853514598823e-05,-0.18377114015496124
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),InadequatePlanning,Socio-Political,Linear Regression,0.00011366633633843505,0.9999948124508264,0.00011366633633800975,26725709784218.348
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),InadequatePlanning,Socio-Political,XGBoost,0.01100743573152072,0.9513513470927017,7.761644778452557e-05,0.7101347768852914
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),PoliticalFactors,Socio-Political,Linear Regression,0.00010807838291259688,0.9999953099639785,0.00010807838291217158,25411846538880.863
+gaussian,Gaussian (Additive),0.1,0,σ (std dev),PoliticalFactors,Socio-Political,XGBoost,0.010872703398169347,0.9525349892164043,-5.711588556684723e-05,-0.5225693498138335
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),MonsoonIntensity,Physical / Environmental,Linear Regression,0.0022541785343623876,0.9979597888257686,0.002254178534361962,530011991694913.5
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),MonsoonIntensity,Physical / Environmental,XGBoost,0.011263863493668685,0.949058320468433,0.00033404420993249015,3.0562647127162945
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),TopographyDrainage,Physical / Environmental,Linear Regression,0.0022613291196649904,0.9979468245972751,0.002261329119664565,531693267556716.3
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),TopographyDrainage,Physical / Environmental,XGBoost,0.011289255291461686,0.948828388921916,0.00035943600772549156,3.2885814339157466
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),RiverManagement,Infrastructure,Linear Regression,0.0022870980233653465,0.9978997641893647,0.002287098023364921,537752161191725.56
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),RiverManagement,Infrastructure,XGBoost,0.011307603830464604,0.9486619142875925,0.0003777845467284099,3.4564573934956213
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),Deforestation,Human / Land Use,Linear Regression,0.002241602711734747,0.9979824895690237,0.0022416027117343217,527055111085647.94
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),Deforestation,Human / Land Use,XGBoost,0.011286959416359054,0.9488492001585456,0.00035714013262285946,3.267575824920469
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),Urbanization,Human / Land Use,Linear Regression,0.002289491840944532,0.9978953654163862,0.0022894918409441067,538315005706282.94
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),Urbanization,Human / Land Use,XGBoost,0.011255241769405847,0.9491362754301167,0.0003254224856696526,2.9773821251911112
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),ClimateChange,Socio-Political,Linear Regression,0.002229935286367807,0.9980034369851081,0.0022299352863673814,524311816682645.25
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),ClimateChange,Socio-Political,XGBoost,0.011309285167917177,0.9486466461432899,0.0003794658841809826,3.4718404241654386
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),DamsQuality,Infrastructure,Linear Regression,0.002285091835022842,0.9979034471278126,0.0022850918350224166,537280457702886.0
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),DamsQuality,Infrastructure,XGBoost,0.011236261289512222,0.9493076807000048,0.00030644200577602775,2.8037243601275277
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),Siltation,Physical / Environmental,Linear Regression,0.002250794692081763,0.9979659095220406,0.0022507946920813375,529216368384960.0
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),Siltation,Physical / Environmental,XGBoost,0.011310406433443871,0.9486364627233932,0.00038058714970767675,3.48209919878546
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),AgriculturalPractices,Human / Land Use,Linear Regression,0.002219491178467481,0.9980220953630459,0.0022194911784670555,521856153856765.7
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),AgriculturalPractices,Human / Land Use,XGBoost,0.011351526508615683,0.9482623096196687,0.0004217072248794886,3.8583183667729806
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),Encroachments,Human / Land Use,Linear Regression,0.002299716015921395,0.9978765261275758,0.0022997160159209697,540718956972928.3
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),Encroachments,Human / Land Use,XGBoost,0.01126208041193042,0.9490744474374867,0.0003322611281942247,3.03995079487395
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),IneffectiveDisasterPreparedness,Socio-Political,Linear Regression,0.002249166205262753,0.9979688518527857,0.0022491662052623275,528833471675921.44
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),IneffectiveDisasterPreparedness,Socio-Political,XGBoost,0.011242427070218814,0.9492520316771411,0.0003126077864826198,2.8601368272189727
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),DrainageSystems,Infrastructure,Linear Regression,0.0022323344818289048,0.9979991384551735,0.0022323344818284793,524875925667545.1
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),DrainageSystems,Infrastructure,XGBoost,0.01125802769907141,0.9491110924443719,0.00032820841533521584,3.002871381630225
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),CoastalVulnerability,Physical / Environmental,Linear Regression,0.0022935841848208665,0.9978878348492674,0.002293584184820441,539277214908230.8
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),CoastalVulnerability,Physical / Environmental,XGBoost,0.011325276362278355,0.9485013174094297,0.0003954570785421607,3.618148372595779
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),Landslides,Physical / Environmental,Linear Regression,0.0022440509268167124,0.9979780802267965,0.002244050926816287,527630745771148.6
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),Landslides,Physical / Environmental,XGBoost,0.011307501606455028,0.9486628425056876,0.00037768232271883327,3.455522117193947
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),Watersheds,Physical / Environmental,Linear Regression,0.002263917999224062,0.9979421207561023,0.0022639179992236364,532301975869055.06
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),Watersheds,Physical / Environmental,XGBoost,0.011285552249618082,0.9488619534989018,0.0003557329658818876,3.2547012594364286
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),DeterioratingInfrastructure,Infrastructure,Linear Regression,0.0022658690575723876,0.9979385722419122,0.002265869057571962,532760716960475.3
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),DeterioratingInfrastructure,Infrastructure,XGBoost,0.011361831162671383,0.9481683344197249,0.000432011878935188,3.9525985537384956
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),PopulationScore,Human / Land Use,Linear Regression,0.002233352606621773,0.9979973129300924,0.0022333526066213474,525115311475295.56
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),PopulationScore,Human / Land Use,XGBoost,0.011355067740351554,0.9482300243179602,0.0004252484566153597,3.8907180949289666
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),WetlandLoss,Physical / Environmental,Linear Regression,0.002275451702723191,0.9979210992978583,0.0022754517027227653,535013829020882.8
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),WetlandLoss,Physical / Environmental,XGBoost,0.011357277771869633,0.948209870424621,0.00042745848813343854,3.9109382967521333
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),InadequatePlanning,Socio-Political,Linear Regression,0.002238511634857699,0.9979880498585653,0.0022385116348572734,526328324015718.56
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),InadequatePlanning,Socio-Political,XGBoost,0.011415045495370204,0.9476816793044122,0.000485226211634009,4.439471495709321
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),PoliticalFactors,Socio-Political,Linear Regression,0.00224167150763672,0.9979823657303265,0.0022416715076362947,527071286669111.8
+gaussian,Gaussian (Additive),0.5,1,σ (std dev),PoliticalFactors,Socio-Political,XGBoost,0.011225493601553362,0.9494047908550286,0.00029567431781716766,2.70520774535712
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),MonsoonIntensity,Physical / Environmental,Linear Regression,0.005643096019041413,0.9872140388019031,0.005643096019040988,1326828605092772.0
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),MonsoonIntensity,Physical / Environmental,XGBoost,0.012261986462857694,0.9396301402621383,0.0013321671791214993,12.188373334807032
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),TopographyDrainage,Physical / Environmental,Linear Regression,0.005622310491527073,0.9873080558087751,0.005622310491526648,1321941423945240.0
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),TopographyDrainage,Physical / Environmental,XGBoost,0.01241745447634865,0.9380895935588119,0.0014876351926124548,13.610794048773412
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),RiverManagement,Infrastructure,Linear Regression,0.005693934953932664,0.9869826223244974,0.005693934953932239,1338782070502284.0
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),RiverManagement,Infrastructure,XGBoost,0.012353102557603954,0.9387296168455066,0.0014232832738677592,13.022020190083428
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),Deforestation,Human / Land Use,Linear Regression,0.0055872866487660655,0.9874656906818732,0.0055872866487656405,1313706469891867.0
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),Deforestation,Human / Land Use,XGBoost,0.0123999173804332,0.9382643414596678,0.0014700980966970058,13.450342210914167
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),Urbanization,Human / Land Use,Linear Regression,0.005683514883985421,0.9870302231041252,0.005683514883984996,1336332059581608.8
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),Urbanization,Human / Land Use,XGBoost,0.012430705315028961,0.9379573921448576,0.0015008860312927669,13.732029710007351
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),ClimateChange,Socio-Political,Linear Regression,0.00556439083544064,0.9875682074197869,0.005564390835440215,1308323109418372.5
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),ClimateChange,Socio-Political,XGBoost,0.012419836652341879,0.938065837380647,0.001490017368605684,13.632589248962805
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),DamsQuality,Infrastructure,Linear Regression,0.0056636389089387605,0.9871207784067101,0.0056636389089383355,1331658736257491.0
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),DamsQuality,Infrastructure,XGBoost,0.012457080766258748,0.9376938290092974,0.0015272614825225534,13.973346153994981
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),Siltation,Physical / Environmental,Linear Regression,0.005592340899534809,0.9874430033918362,0.005592340899534384,1314894846711019.5
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),Siltation,Physical / Environmental,XGBoost,0.012335711599206014,0.9389020108861347,0.0014058923154698193,12.862905405598218
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),AgriculturalPractices,Human / Land Use,Linear Regression,0.005550717547644998,0.987629229240129,0.005550717547644573,1305108188156762.2
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),AgriculturalPractices,Human / Land Use,XGBoost,0.012320561072907198,0.939051997895611,0.0013907417891710037,12.724288966428361
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),Encroachments,Human / Land Use,Linear Regression,0.005723181460810155,0.9868485531503753,0.00572318146080973,1345658632905822.8
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),Encroachments,Human / Land Use,XGBoost,0.012509043617861516,0.9371729431013444,0.0015792243341253218,14.448768942367066
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),IneffectiveDisasterPreparedness,Socio-Political,Linear Regression,0.005627419339194009,0.9872849796484207,0.005627419339193584,1323142637818029.0
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),IneffectiveDisasterPreparedness,Socio-Political,XGBoost,0.012418760506544991,0.9380765697764298,0.0014889412228087963,13.62274328747935
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),DrainageSystems,Infrastructure,Linear Regression,0.005605522012201221,0.9873837401068708,0.005605522012200796,1317994045674449.2
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),DrainageSystems,Infrastructure,XGBoost,0.01236349836576672,0.9386264487284162,0.001433679082030525,13.11713437168966
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),CoastalVulnerability,Physical / Environmental,Linear Regression,0.0056902790741931095,0.9869993329788167,0.0056902790741926845,1337922484594326.2
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),CoastalVulnerability,Physical / Environmental,XGBoost,0.012445503971532216,0.9378095817443289,0.0015156846877960213,13.86742679315286
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),Landslides,Physical / Environmental,Linear Regression,0.0056034155016738444,0.9873932205051799,0.005603415501673419,1317498754009161.2
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),Landslides,Physical / Environmental,XGBoost,0.012459542603315462,0.9376691999970688,0.0015297233195792678,13.995870195727106
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),Watersheds,Physical / Environmental,Linear Regression,0.00558893850665364,0.9874582781542287,0.005588938506653215,1314094861705401.0
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),Watersheds,Physical / Environmental,XGBoost,0.012407132068623983,0.9381924808031306,0.0014773127848877882,13.516351428482091
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),DeterioratingInfrastructure,Infrastructure,Linear Regression,0.005620557820843493,0.9873159676205807,0.005620557820843068,1321529328600692.8
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),DeterioratingInfrastructure,Infrastructure,XGBoost,0.012327987513421151,0.9389785007352378,0.0013981682296849568,12.79223556573768
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),PopulationScore,Human / Land Use,Linear Regression,0.0056019121822904715,0.9873999840491963,0.0056019121822900465,1317145287197021.2
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),PopulationScore,Human / Land Use,XGBoost,0.012314945972950155,0.9391075393821477,0.0013851266892139606,12.67291483286516
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),WetlandLoss,Physical / Environmental,Linear Regression,0.005647432790908648,0.9871943789898158,0.005647432790908223,1327848285237818.8
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),WetlandLoss,Physical / Environmental,XGBoost,0.01237171186161618,0.9385448765331814,0.0014418925778799854,13.192281962296965
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),InadequatePlanning,Socio-Political,Linear Regression,0.005570242130909176,0.9875420481006053,0.005570242130908751,1309698890758670.0
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),InadequatePlanning,Socio-Political,XGBoost,0.012438983054233164,0.9378747349647436,0.0015091637704969692,13.807765081190658
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),PoliticalFactors,Socio-Political,Linear Regression,0.005618540891586105,0.9873250692815361,0.00561854089158568,1321055099662514.0
+gaussian,Gaussian (Additive),1.0,2,σ (std dev),PoliticalFactors,Socio-Political,XGBoost,0.012285667305222374,0.9393967376897662,0.001355848021486179,12.405036042121116
+uniform,Uniform (Bounded),0.1,0,δ (half-range),MonsoonIntensity,Physical / Environmental,Linear Regression,3.706155401183662e-05,0.9999994484996997,3.7061554011411314e-05,8714069341653.379
+uniform,Uniform (Bounded),0.1,0,δ (half-range),MonsoonIntensity,Physical / Environmental,XGBoost,0.010876446376724478,0.9525023034912073,-5.3372907011716916e-05,-0.488323783094355
+uniform,Uniform (Bounded),0.1,0,δ (half-range),TopographyDrainage,Physical / Environmental,Linear Regression,4.060027763607113e-05,0.9999993381546697,4.060027763564582e-05,9546109008231.629
+uniform,Uniform (Bounded),0.1,0,δ (half-range),TopographyDrainage,Physical / Environmental,XGBoost,0.010923873314053029,0.9520871712684716,-5.945969683165617e-06,-0.054401354027997034
+uniform,Uniform (Bounded),0.1,0,δ (half-range),RiverManagement,Infrastructure,Linear Regression,4.4549540848584136e-05,0.9999992031346061,4.454954084815883e-05,10474676479301.055
+uniform,Uniform (Bounded),0.1,0,δ (half-range),RiverManagement,Infrastructure,XGBoost,0.010898672422885024,0.9523079818153503,-3.1146860851170854e-05,-0.28497141665935916
+uniform,Uniform (Bounded),0.1,0,δ (half-range),Deforestation,Human / Land Use,Linear Regression,4.0736335641356096e-05,0.9999993337113385,4.073633564093079e-05,9578099541930.652
+uniform,Uniform (Bounded),0.1,0,δ (half-range),Deforestation,Human / Land Use,XGBoost,0.010876997594150298,0.9524974890103495,-5.2821689585896836e-05,-0.4832805393635066
+uniform,Uniform (Bounded),0.1,0,δ (half-range),Urbanization,Human / Land Use,Linear Regression,4.6411052025515596e-05,0.9999991351489281,4.641105202509029e-05,10912362861017.508
+uniform,Uniform (Bounded),0.1,0,δ (half-range),Urbanization,Human / Land Use,XGBoost,0.010901888272496645,0.9522798328849946,-2.7931011239549358e-05,-0.2555487013505457
+uniform,Uniform (Bounded),0.1,0,δ (half-range),ClimateChange,Socio-Political,Linear Regression,4.216200979828182e-05,0.9999992862582328,4.216200979785652e-05,9913310080005.467
+uniform,Uniform (Bounded),0.1,0,δ (half-range),ClimateChange,Socio-Political,XGBoost,0.010987258277991904,0.9515295368688904,5.743899425570895e-05,0.5255255623592917
+uniform,Uniform (Bounded),0.1,0,δ (half-range),DamsQuality,Infrastructure,Linear Regression,4.2986469436840445e-05,0.9999992580714961,4.298646943641514e-05,10107160517512.275
+uniform,Uniform (Bounded),0.1,0,δ (half-range),DamsQuality,Infrastructure,XGBoost,0.010970624722642272,0.9516761841638764,4.080543890607781e-05,0.37334047203138276
+uniform,Uniform (Bounded),0.1,0,δ (half-range),Siltation,Physical / Environmental,Linear Regression,4.253305929348151e-05,0.9999992736402923,4.2533059293056204e-05,10000552806777.258
+uniform,Uniform (Bounded),0.1,0,δ (half-range),Siltation,Physical / Environmental,XGBoost,0.010893177264393537,0.9523560627409536,-3.664201934265761e-05,-0.33524817191791745
+uniform,Uniform (Bounded),0.1,0,δ (half-range),AgriculturalPractices,Human / Land Use,Linear Regression,4.191988717361882e-05,0.9999992944322655,4.1919887173193514e-05,9856381184367.5
+uniform,Uniform (Bounded),0.1,0,δ (half-range),AgriculturalPractices,Human / Land Use,XGBoost,0.010927245718061735,0.9520575835292807,-2.573565674459169e-06,-0.023546278375239836
+uniform,Uniform (Bounded),0.1,0,δ (half-range),Encroachments,Human / Land Use,Linear Regression,4.26879044788443e-05,0.9999992683419178,4.2687904478418994e-05,10036960661721.957
+uniform,Uniform (Bounded),0.1,0,δ (half-range),Encroachments,Human / Land Use,XGBoost,0.010902529210817387,0.9522742216400248,-2.7290072918807404e-05,-0.24968457584120918
+uniform,Uniform (Bounded),0.1,0,δ (half-range),IneffectiveDisasterPreparedness,Socio-Political,Linear Regression,4.062049380213966e-05,0.999999337495398,4.0620493801714356e-05,9550862318707.744
+uniform,Uniform (Bounded),0.1,0,δ (half-range),IneffectiveDisasterPreparedness,Socio-Political,XGBoost,0.010980119485400036,0.9515925021990476,5.0300201663841526e-05,0.4602107350364823
+uniform,Uniform (Bounded),0.1,0,δ (half-range),DrainageSystems,Infrastructure,Linear Regression,4.262096237775993e-05,0.9999992706348543,4.2620962377334625e-05,10021220951764.15
+uniform,Uniform (Bounded),0.1,0,δ (half-range),DrainageSystems,Infrastructure,XGBoost,0.010961325191675293,0.9517580752804164,3.1505907939098285e-05,0.28825643975632564
+uniform,Uniform (Bounded),0.1,0,δ (half-range),CoastalVulnerability,Physical / Environmental,Linear Regression,4.32969788857951e-05,0.9999992473142572,4.3296978885369796e-05,10180168812539.418
+uniform,Uniform (Bounded),0.1,0,δ (half-range),CoastalVulnerability,Physical / Environmental,XGBoost,0.010883371100365774,0.9524418033767696,-4.644818337042056e-05,-0.4249675329905633
+uniform,Uniform (Bounded),0.1,0,δ (half-range),Landslides,Physical / Environmental,Linear Regression,3.522713957512911e-05,0.999999501743168,3.5227139574703805e-05,8282754060111.828
+uniform,Uniform (Bounded),0.1,0,δ (half-range),Landslides,Physical / Environmental,XGBoost,0.010987690296573288,0.9515257250803852,5.7871012837093505e-05,0.5294782222356303
+uniform,Uniform (Bounded),0.1,0,δ (half-range),Watersheds,Physical / Environmental,Linear Regression,4.53292442139959e-05,0.9999991749971322,4.5329244213570596e-05,10658003632556.059
+uniform,Uniform (Bounded),0.1,0,δ (half-range),Watersheds,Physical / Environmental,XGBoost,0.010960257289248801,0.9517674747203606,3.0438005512606683e-05,0.2784858991941348
+uniform,Uniform (Bounded),0.1,0,δ (half-range),DeterioratingInfrastructure,Infrastructure,Linear Regression,2.9604377788614838e-05,0.9999996481072028,2.9604377788189532e-05,6960706525780.216
+uniform,Uniform (Bounded),0.1,0,δ (half-range),DeterioratingInfrastructure,Infrastructure,XGBoost,0.010875325447826057,0.9525120932323119,-5.449383591013719e-05,-0.4985794778073338
+uniform,Uniform (Bounded),0.1,0,δ (half-range),PopulationScore,Human / Land Use,Linear Regression,4.480473373609977e-05,0.999999193979099,4.4804733735674466e-05,10534678510425.363
+uniform,Uniform (Bounded),0.1,0,δ (half-range),PopulationScore,Human / Land Use,XGBoost,0.010897363931665916,0.952319432905622,-3.2455352070278123e-05,-0.2969431719568537
+uniform,Uniform (Bounded),0.1,0,δ (half-range),WetlandLoss,Physical / Environmental,Linear Regression,4.1197600893795956e-05,0.9999993185368848,4.119760089337065e-05,9686554179138.217
+uniform,Uniform (Bounded),0.1,0,δ (half-range),WetlandLoss,Physical / Environmental,XGBoost,0.010948521879944398,0.9518707068582444,1.8702596208203248e-05,0.17111532883286654
+uniform,Uniform (Bounded),0.1,0,δ (half-range),InadequatePlanning,Socio-Political,Linear Regression,4.614514646201664e-05,0.9999991450306229,4.6145146461591335e-05,10849842020203.658
+uniform,Uniform (Bounded),0.1,0,δ (half-range),InadequatePlanning,Socio-Political,XGBoost,0.010871612814619036,0.9525445106687912,-5.8206469117158197e-05,-0.5325474063763402
+uniform,Uniform (Bounded),0.1,0,δ (half-range),PoliticalFactors,Socio-Political,Linear Regression,4.659035099430907e-05,0.9999991284536935,4.6590350993883764e-05,10954520392956.73
+uniform,Uniform (Bounded),0.1,0,δ (half-range),PoliticalFactors,Socio-Political,XGBoost,0.010815747860363474,0.9530309678867658,-0.00011407142337272087,-1.0436716327273736
+uniform,Uniform (Bounded),0.5,1,δ (half-range),MonsoonIntensity,Physical / Environmental,Linear Regression,0.0008488322376227372,0.999710704130771,0.0008488322376223119,199581026089573.62
+uniform,Uniform (Bounded),0.5,1,δ (half-range),MonsoonIntensity,Physical / Environmental,XGBoost,0.011089098682008667,0.950626831504232,0.0001592793982724723,1.4572921485489103
+uniform,Uniform (Bounded),0.5,1,δ (half-range),TopographyDrainage,Physical / Environmental,Linear Regression,0.0008613811650606781,0.9997020871442056,0.0008613811650602527,202531582988076.16
+uniform,Uniform (Bounded),0.5,1,δ (half-range),TopographyDrainage,Physical / Environmental,XGBoost,0.011199652701287179,0.9496374614107485,0.00026983341755098394,2.4687820589357945
+uniform,Uniform (Bounded),0.5,1,δ (half-range),RiverManagement,Infrastructure,Linear Regression,0.0008874712414683319,0.999683767079126,0.0008874712414679066,208665992108517.47
+uniform,Uniform (Bounded),0.5,1,δ (half-range),RiverManagement,Infrastructure,XGBoost,0.011063325306705252,0.9508560718501122,0.00013350602296905746,1.221484267061188
+uniform,Uniform (Bounded),0.5,1,δ (half-range),Deforestation,Human / Land Use,Linear Regression,0.0008573844683479853,0.9997048452845243,0.0008573844683475599,201591862751810.84
+uniform,Uniform (Bounded),0.5,1,δ (half-range),Deforestation,Human / Land Use,XGBoost,0.011100224755561194,0.9505277062100048,0.00017040547182499942,1.559087734218684
+uniform,Uniform (Bounded),0.5,1,δ (half-range),Urbanization,Human / Land Use,Linear Regression,0.0008949661340808495,0.9996784032097021,0.0008949661340804241,210428222961374.16
+uniform,Uniform (Bounded),0.5,1,δ (half-range),Urbanization,Human / Land Use,XGBoost,0.011124176272426777,0.9503139781272094,0.00019435698869058222,1.7782269189005677
+uniform,Uniform (Bounded),0.5,1,δ (half-range),ClimateChange,Socio-Political,Linear Regression,0.0008608198551191983,0.9997024752812358,0.000860819855118773,202399605420413.75
+uniform,Uniform (Bounded),0.5,1,δ (half-range),ClimateChange,Socio-Political,XGBoost,0.011080954342734683,0.950699328680452,0.00015113505899848854,1.3827772909601603
+uniform,Uniform (Bounded),0.5,1,δ (half-range),DamsQuality,Infrastructure,Linear Regression,0.0008765291414318868,0.9996915170105236,0.0008765291414314615,206093239265192.78
+uniform,Uniform (Bounded),0.5,1,δ (half-range),DamsQuality,Infrastructure,XGBoost,0.011067144066033166,0.9508221396971798,0.00013732478229697143,1.2564231734491131
+uniform,Uniform (Bounded),0.5,1,δ (half-range),Siltation,Physical / Environmental,Linear Regression,0.0008657359699288051,0.9996990672690111,0.0008657359699283798,203555503128568.5
+uniform,Uniform (Bounded),0.5,1,δ (half-range),Siltation,Physical / Environmental,XGBoost,0.011181961185684366,0.9497964459678114,0.00025214190194817153,2.306917391794063
+uniform,Uniform (Bounded),0.5,1,δ (half-range),AgriculturalPractices,Human / Land Use,Linear Regression,0.0008573684450330047,0.9997048563164778,0.0008573684450325793,201588095282217.38
+uniform,Uniform (Bounded),0.5,1,δ (half-range),AgriculturalPractices,Human / Land Use,XGBoost,0.011094539830312162,0.9505783672153154,0.00016472054657596692,1.5070747493609031
+uniform,Uniform (Bounded),0.5,1,δ (half-range),Encroachments,Human / Land Use,Linear Regression,0.0008831110129684783,0.9996868668090696,0.000883111012968053,207640796740792.75
+uniform,Uniform (Bounded),0.5,1,δ (half-range),Encroachments,Human / Land Use,XGBoost,0.011163269021694414,0.9499641497734232,0.000233449737958219,2.135897510268969
+uniform,Uniform (Bounded),0.5,1,δ (half-range),IneffectiveDisasterPreparedness,Socio-Political,Linear Regression,0.0008614113762844414,0.9997020662464425,0.0008614113762840161,202538686378794.4
+uniform,Uniform (Bounded),0.5,1,δ (half-range),IneffectiveDisasterPreparedness,Socio-Political,XGBoost,0.011077196318599488,0.9507327629298793,0.00014737703486329343,1.3483940679842128
+uniform,Uniform (Bounded),0.5,1,δ (half-range),DrainageSystems,Infrastructure,Linear Regression,0.0008677646632339229,0.9996976552553362,0.0008677646632334976,204032498079408.97
+uniform,Uniform (Bounded),0.5,1,δ (half-range),DrainageSystems,Infrastructure,XGBoost,0.011057216072291565,0.9509103320067765,0.0001273967885553704,1.1655891579556084
+uniform,Uniform (Bounded),0.5,1,δ (half-range),CoastalVulnerability,Physical / Environmental,Linear Regression,0.0008812512234809714,0.9996881843073118,0.000881251223480546,207203515169976.2
+uniform,Uniform (Bounded),0.5,1,δ (half-range),CoastalVulnerability,Physical / Environmental,XGBoost,0.011027968238597499,0.9511696861765532,9.81489548613039e-05,0.8979924764845074
+uniform,Uniform (Bounded),0.5,1,δ (half-range),Landslides,Physical / Environmental,Linear Regression,0.0008364155243330604,0.9997191058645136,0.0008364155243326351,196661555940848.7
+uniform,Uniform (Bounded),0.5,1,δ (half-range),Landslides,Physical / Environmental,XGBoost,0.011062084299303502,0.9508670964844403,0.00013226501556730733,1.2101299402463177
+uniform,Uniform (Bounded),0.5,1,δ (half-range),Watersheds,Physical / Environmental,Linear Regression,0.0008777918038960894,0.9996906276152424,0.0008777918038956641,206390121804569.72
+uniform,Uniform (Bounded),0.5,1,δ (half-range),Watersheds,Physical / Environmental,XGBoost,0.01122194399022543,0.9494367832001862,0.0002921247064892347,2.6727313499494225
+uniform,Uniform (Bounded),0.5,1,δ (half-range),DeterioratingInfrastructure,Infrastructure,Linear Regression,0.0008184747585828533,0.9997310267546025,0.000818474758582428,192443247212036.94
+uniform,Uniform (Bounded),0.5,1,δ (half-range),DeterioratingInfrastructure,Infrastructure,XGBoost,0.011160958574192505,0.9499848593418493,0.00023113929045631004,2.1147585742817383
+uniform,Uniform (Bounded),0.5,1,δ (half-range),PopulationScore,Human / Land Use,Linear Regression,0.0008770167244780431,0.9996911737180925,0.0008770167244776178,206207881853377.62
+uniform,Uniform (Bounded),0.5,1,δ (half-range),PopulationScore,Human / Land Use,XGBoost,0.011040452876370975,0.9510590631054365,0.0001106335926347804,1.0122179494715484
+uniform,Uniform (Bounded),0.5,1,δ (half-range),WetlandLoss,Physical / Environmental,Linear Regression,0.000866878988625048,0.999698272110163,0.0008668789886246227,203824254519155.1
+uniform,Uniform (Bounded),0.5,1,δ (half-range),WetlandLoss,Physical / Environmental,XGBoost,0.010957173522564164,0.9517946122092504,2.735423882796982e-05,0.2502716478457564
+uniform,Uniform (Bounded),0.5,1,δ (half-range),InadequatePlanning,Socio-Political,Linear Regression,0.000879819102610478,0.9996891969468383,0.0008798191026100526,206866788853339.1
+uniform,Uniform (Bounded),0.5,1,δ (half-range),InadequatePlanning,Socio-Political,XGBoost,0.011018842133094649,0.9512504709951278,8.902284935845446e-05,0.8144951627052276
+uniform,Uniform (Bounded),0.5,1,δ (half-range),PoliticalFactors,Socio-Political,Linear Regression,0.0008877230418734353,0.9996835876054255,0.0008877230418730099,208725196484827.53
+uniform,Uniform (Bounded),0.5,1,δ (half-range),PoliticalFactors,Socio-Political,XGBoost,0.01105510184019101,0.950929102921396,0.00012528255645481538,1.1462454520290057
+uniform,Uniform (Bounded),1.0,2,δ (half-range),MonsoonIntensity,Physical / Environmental,Linear Regression,0.002793032676289334,0.9968677924257793,0.0027930326762889085,656709656783181.4
+uniform,Uniform (Bounded),1.0,2,δ (half-range),MonsoonIntensity,Physical / Environmental,XGBoost,0.011514246817801643,0.9467683936945545,0.0005844275340654483,5.347092379972732
+uniform,Uniform (Bounded),1.0,2,δ (half-range),TopographyDrainage,Physical / Environmental,Linear Regression,0.0027998409997647975,0.9968525036154102,0.002799840999764372,658310458596492.5
+uniform,Uniform (Bounded),1.0,2,δ (half-range),TopographyDrainage,Physical / Environmental,XGBoost,0.011491890798893591,0.9469749016009178,0.0005620715151573967,5.142550856204651
+uniform,Uniform (Bounded),1.0,2,δ (half-range),RiverManagement,Infrastructure,Linear Regression,0.0028476502167874575,0.996744094525748,0.002847650216787032,669551563925679.1
+uniform,Uniform (Bounded),1.0,2,δ (half-range),RiverManagement,Infrastructure,XGBoost,0.01143858278282528,0.9474657010272036,0.0005087634990890849,4.654820778657666
+uniform,Uniform (Bounded),1.0,2,δ (half-range),Deforestation,Human / Land Use,Linear Regression,0.0027825948104579956,0.9968911594798059,0.00278259481045757,654255461618964.9
+uniform,Uniform (Bounded),1.0,2,δ (half-range),Deforestation,Human / Land Use,XGBoost,0.011558272902744976,0.9463605407564966,0.000628453619008781,5.749899451164152
+uniform,Uniform (Bounded),1.0,2,δ (half-range),Urbanization,Human / Land Use,Linear Regression,0.0028527412015282145,0.9967324424050371,0.002852741201527789,670748577791708.6
+uniform,Uniform (Bounded),1.0,2,δ (half-range),Urbanization,Human / Land Use,XGBoost,0.011461718342213888,0.9472529754553076,0.0005318990584776938,4.866494538195806
+uniform,Uniform (Bounded),1.0,2,δ (half-range),ClimateChange,Socio-Political,Linear Regression,0.0027783450391928003,0.9969006483008351,0.002778345039192375,653256237423463.6
+uniform,Uniform (Bounded),1.0,2,δ (half-range),ClimateChange,Socio-Political,XGBoost,0.011499899303977419,0.9469009712540557,0.0005700800202412242,5.2158229284679525
+uniform,Uniform (Bounded),1.0,2,δ (half-range),DamsQuality,Infrastructure,Linear Regression,0.002827308508707708,0.9967904444071156,0.0028273085087072826,664768735480870.0
+uniform,Uniform (Bounded),1.0,2,δ (half-range),DamsQuality,Infrastructure,XGBoost,0.011560451333375913,0.9463403195948078,0.0006306320496397184,5.769830527556045
+uniform,Uniform (Bounded),1.0,2,δ (half-range),Siltation,Physical / Environmental,Linear Regression,0.002792345968959412,0.9968693324331713,0.0027923459689589867,656548195251144.2
+uniform,Uniform (Bounded),1.0,2,δ (half-range),Siltation,Physical / Environmental,XGBoost,0.011554446231476207,0.9463960523940605,0.0006246269477400129,5.7148881561973415
+uniform,Uniform (Bounded),1.0,2,δ (half-range),AgriculturalPractices,Human / Land Use,Linear Regression,0.0027680339667057836,0.9969236104157168,0.002768033966705358,650831854446672.9
+uniform,Uniform (Bounded),1.0,2,δ (half-range),AgriculturalPractices,Human / Land Use,XGBoost,0.01145917637730649,0.947276369193174,0.000529357093570295,4.843237384153182
+uniform,Uniform (Bounded),1.0,2,δ (half-range),Encroachments,Human / Land Use,Linear Regression,0.0028552338573098936,0.9967267296858232,0.002855233857309468,671334661562500.8
+uniform,Uniform (Bounded),1.0,2,δ (half-range),Encroachments,Human / Land Use,XGBoost,0.011607976216346948,0.9458982240714208,0.0006781569326107535,6.204649088936589
+uniform,Uniform (Bounded),1.0,2,δ (half-range),IneffectiveDisasterPreparedness,Socio-Political,Linear Regression,0.002798542511703971,0.9968554223802701,0.0027985425117035456,658005152591302.8
+uniform,Uniform (Bounded),1.0,2,δ (half-range),IneffectiveDisasterPreparedness,Socio-Political,XGBoost,0.011701228905716806,0.9450254791477976,0.0007714096219806118,7.057844251171526
+uniform,Uniform (Bounded),1.0,2,δ (half-range),DrainageSystems,Infrastructure,Linear Regression,0.0027987150606182004,0.9968550345997172,0.002798715060617775,658045723021861.5
+uniform,Uniform (Bounded),1.0,2,δ (half-range),DrainageSystems,Infrastructure,XGBoost,0.011499999770734596,0.9469000434701875,0.0005701804869984017,5.2167421271716945
+uniform,Uniform (Bounded),1.0,2,δ (half-range),CoastalVulnerability,Physical / Environmental,Linear Regression,0.0028411952923823205,0.996758838474157,0.002841195292381895,668033854796586.1
+uniform,Uniform (Bounded),1.0,2,δ (half-range),CoastalVulnerability,Physical / Environmental,XGBoost,0.011558239045203532,0.9463608550071757,0.000628419761467337,5.749589678966047
+uniform,Uniform (Bounded),1.0,2,δ (half-range),Landslides,Physical / Environmental,Linear Regression,0.002766988990994378,0.9969259327467456,0.0027669889909939524,650586155337382.1
+uniform,Uniform (Bounded),1.0,2,δ (half-range),Landslides,Physical / Environmental,XGBoost,0.011407320267004629,0.9477524690725619,0.0004775009832684342,4.368791202055517
+uniform,Uniform (Bounded),1.0,2,δ (half-range),Watersheds,Physical / Environmental,Linear Regression,0.002801387067663537,0.9968490265703295,0.0028013870676631115,658673976620382.5
+uniform,Uniform (Bounded),1.0,2,δ (half-range),Watersheds,Physical / Environmental,XGBoost,0.011571341318002071,0.9462391767744969,0.0006415220342658769,5.869466069036251
+uniform,Uniform (Bounded),1.0,2,δ (half-range),DeterioratingInfrastructure,Infrastructure,Linear Regression,0.0027574974650751475,0.9969469863509107,0.002757497465074722,648354467616116.9
+uniform,Uniform (Bounded),1.0,2,δ (half-range),DeterioratingInfrastructure,Infrastructure,XGBoost,0.011532325424342852,0.9466011037657758,0.0006025061406066574,5.512498651310726
+uniform,Uniform (Bounded),1.0,2,δ (half-range),PopulationScore,Human / Land Use,Linear Regression,0.002805687167385113,0.9968393457237986,0.0028056871673846876,659685034255426.8
+uniform,Uniform (Bounded),1.0,2,δ (half-range),PopulationScore,Human / Land Use,XGBoost,0.011324632124545004,0.948507176242333,0.0003948128408088093,3.612254059829693
+uniform,Uniform (Bounded),1.0,2,δ (half-range),WetlandLoss,Physical / Environmental,Linear Regression,0.0028124306802713183,0.9968241341013131,0.002812430680270893,661270597528856.5
+uniform,Uniform (Bounded),1.0,2,δ (half-range),WetlandLoss,Physical / Environmental,XGBoost,0.0115627917053616,0.9463185909752002,0.0006329724216254055,5.791243251087252
+uniform,Uniform (Bounded),1.0,2,δ (half-range),InadequatePlanning,Socio-Political,Linear Regression,0.002798588739901719,0.9968553184909378,0.0027985887399012937,658016021960692.8
+uniform,Uniform (Bounded),1.0,2,δ (half-range),InadequatePlanning,Socio-Political,XGBoost,0.011593740262016851,0.9460308429049601,0.0006639209782806563,6.074400326715236
+uniform,Uniform (Bounded),1.0,2,δ (half-range),PoliticalFactors,Socio-Political,Linear Regression,0.0028231206035799505,0.9967999455700901,0.002823120603579525,663784057513283.9
+uniform,Uniform (Bounded),1.0,2,δ (half-range),PoliticalFactors,Socio-Political,XGBoost,0.011431517982344402,0.9475305744005813,0.0005016986986082078,4.5901829260319635
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),MonsoonIntensity,Physical / Environmental,Linear Regression,3.562007038948568e-05,0.9999994905658568,3.562007038906037e-05,8375141615197.111
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),MonsoonIntensity,Physical / Environmental,XGBoost,0.010939079907223523,0.9519536841817589,9.260623487328257e-06,0.08472805676767467
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),TopographyDrainage,Physical / Environmental,Linear Regression,3.069038613476666e-05,0.9999996218159509,3.069038613434135e-05,7216053401711.738
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),TopographyDrainage,Physical / Environmental,XGBoost,0.010966790250971028,0.9517099587072616,3.697096723483291e-05,0.3382578089817688
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),RiverManagement,Infrastructure,Linear Regression,3.3974758417809556e-05,0.9999995365410678,3.397475841738425e-05,7988288905096.945
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),RiverManagement,Infrastructure,XGBoost,0.010963817222713626,0.9517361374147744,3.399793897743142e-05,0.3110567347441973
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),Deforestation,Human / Land Use,Linear Regression,3.4993006760338303e-05,0.9999995083443622,3.4993006759913e-05,8227703762366.208
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),Deforestation,Human / Land Use,XGBoost,0.010925822812121538,0.9520700684883315,-3.996471614656216e-06,-0.03656484623312164
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),Urbanization,Human / Land Use,Linear Regression,3.4695586556529854e-05,0.999999516666419,3.469558655610455e-05,8157773066022.565
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),Urbanization,Human / Land Use,XGBoost,0.010922208048440024,0.9521017780846245,-7.611235296170818e-06,-0.06963733890364042
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),ClimateChange,Socio-Political,Linear Regression,3.451787533825928e-05,0.9999995216050197,3.451787533783398e-05,8115988852702.135
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),ClimateChange,Socio-Political,XGBoost,0.010888796251702087,0.9523943778652807,-4.102303203410741e-05,-0.37533129294416206
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),DamsQuality,Infrastructure,Linear Regression,4.0058724648353796e-05,0.999999355693164,4.005872464792849e-05,9418776779105.582
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),DamsQuality,Infrastructure,XGBoost,0.010920595103807062,0.9521159238461996,-9.224179929132742e-06,-0.08439462437277916
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),Siltation,Physical / Environmental,Linear Regression,3.57671276009909e-05,0.9999994863507832,3.5767127600565596e-05,8409718328786.944
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),Siltation,Physical / Environmental,XGBoost,0.01096637842941239,0.9517135853849354,3.655914567619531e-05,0.3344899373642536
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),AgriculturalPractices,Human / Land Use,Linear Regression,2.7877659723263816e-05,0.9999996879593832,2.787765972283851e-05,6554713270604.745
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),AgriculturalPractices,Human / Land Use,XGBoost,0.010895902314613083,0.9523322224310027,-3.3916969123111776e-05,-0.31031591870490444
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),Encroachments,Human / Land Use,Linear Regression,3.18833560243878e-05,0.9999995918436481,3.1883356023962494e-05,7496549528168.345
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),Encroachments,Human / Land Use,XGBoost,0.010903221036332386,0.9522681645209585,-2.659824740380845e-05,-0.24335486903600695
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),IneffectiveDisasterPreparedness,Socio-Political,Linear Regression,3.6268648923993925e-05,0.9999994718451681,3.626864892356862e-05,8527638143579.937
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),IneffectiveDisasterPreparedness,Socio-Political,XGBoost,0.010943749968969355,0.9519126520000917,1.3930685233160683e-05,0.12745576913508389
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),DrainageSystems,Infrastructure,Linear Regression,3.319293908871258e-05,0.9999995576256677,3.319293908828727e-05,7804464237510.196
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),DrainageSystems,Infrastructure,XGBoost,0.010922479762504446,0.952099394906721,-7.339521231749038e-06,-0.067151350275941
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),CoastalVulnerability,Physical / Environmental,Linear Regression,3.5028031309233097e-05,0.9999995073596721,3.502803130880779e-05,8235938882448.743
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),CoastalVulnerability,Physical / Environmental,XGBoost,0.010878911002963905,0.9524807748910455,-5.090828077228965e-05,-0.46577422234274507
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),Landslides,Physical / Environmental,Linear Regression,3.1522956011746276e-05,0.9999996010188534,3.152295601132097e-05,7411810752780.676
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),Landslides,Physical / Environmental,XGBoost,0.010860117218162574,0.9526448160685891,-6.97020655736208e-05,-0.6377238613390339
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),Watersheds,Physical / Environmental,Linear Regression,4.3856982104319623e-05,0.9999992277178635,4.385698210389432e-05,10311839137973.404
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),Watersheds,Physical / Environmental,XGBoost,0.010962049805363474,0.9517516968701755,3.223052162727898e-05,0.29488613480772446
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),DeterioratingInfrastructure,Infrastructure,Linear Regression,3.071179236025727e-05,0.9999996212882081,3.071179235983197e-05,7221086523992.872
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),DeterioratingInfrastructure,Infrastructure,XGBoost,0.010937425225249285,0.9519682183766939,7.6059415130905195e-06,0.06958890458882813
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),PopulationScore,Human / Land Use,Linear Regression,2.3620083293528824e-05,0.9999997759931228,2.3620083293103518e-05,5553653891802.757
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),PopulationScore,Human / Land Use,XGBoost,0.010946892813509926,0.9518850284230551,1.7073529773731222e-05,0.15621054045364685
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),WetlandLoss,Physical / Environmental,Linear Regression,3.923403915556785e-05,0.9999993819486712,3.9234039155142545e-05,9224873237797.53
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),WetlandLoss,Physical / Environmental,XGBoost,0.010868271914065922,0.9525736728018745,-6.154736967027216e-05,-0.5631142480265522
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),InadequatePlanning,Socio-Political,Linear Regression,3.3158674395615066e-05,0.9999995585385123,3.315867439518976e-05,7796407777936.746
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),InadequatePlanning,Socio-Political,XGBoost,0.010968229081379137,0.9516972866790461,3.840979764294268e-05,0.3514220742889801
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),PoliticalFactors,Socio-Political,Linear Regression,3.379895401028756e-05,0.9999995413250498,3.3798954009862256e-05,7946953029185.123
+multiplicative,Multiplicative (Proportional),0.05,0,σ (relative),PoliticalFactors,Socio-Political,XGBoost,0.010834630583762122,0.9528668225210973,-9.518869997407302e-05,-0.8709082694140775
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),MonsoonIntensity,Physical / Environmental,Linear Regression,0.00045846380678547316,0.9999156065746142,0.00045846380678504783,107795949455686.36
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),MonsoonIntensity,Physical / Environmental,XGBoost,0.010965725099830296,0.9517193386066702,3.590581609410129e-05,0.32851244070915164
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),TopographyDrainage,Physical / Environmental,Linear Regression,0.00043663630839429736,0.9999234512337964,0.00043663630839387203,102663775708277.67
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),TopographyDrainage,Physical / Environmental,XGBoost,0.010983013829969808,0.9515669785342606,5.319454623361336e-05,0.4866919100187501
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),RiverManagement,Infrastructure,Linear Regression,0.0004551792914495208,0.9999168114617678,0.0004551792914490955,107023680317095.98
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),RiverManagement,Infrastructure,XGBoost,0.010909160268270409,0.9522161491297946,-2.06590154657859e-05,-0.18901516053908554
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),Deforestation,Human / Land Use,Linear Regression,0.0004522353987039192,0.9999178840333628,0.0004522353987034939,106331499802710.0
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),Deforestation,Human / Land Use,XGBoost,0.011038610347813947,0.9510753971363387,0.00010879106407775223,0.9953601359140097
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),Urbanization,Human / Land Use,Linear Regression,0.0004594567721297935,0.9999152406111752,0.00045945677212936816,108029419667475.14
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),Urbanization,Human / Land Use,XGBoost,0.010970363332926168,0.9516784868947313,4.054404918997327e-05,0.3709489437790036
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),ClimateChange,Socio-Political,Linear Regression,0.0004493079780826797,0.9999189437024301,0.0004493079780822544,105643192283877.62
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),ClimateChange,Socio-Political,XGBoost,0.010942723215328135,0.9519216747836243,1.2903931591940615e-05,0.11806171041768222
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),DamsQuality,Infrastructure,Linear Regression,0.00047525304113941753,0.9999093123159164,0.0004752530411389922,111743505251875.94
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),DamsQuality,Infrastructure,XGBoost,0.011045889218493001,0.9510108539995452,0.00011606993475680658,1.0619565771734316
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),Siltation,Physical / Environmental,Linear Regression,0.0004599460054900102,0.9999150600100811,0.0004599460054895849,108144450284482.34
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),Siltation,Physical / Environmental,XGBoost,0.01090438956102187,0.9522579328991541,-2.5429722714324574e-05,-0.23266370700350505
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),AgriculturalPractices,Human / Land Use,Linear Regression,0.00041987633091943293,0.9999292149914096,0.0004198763309190076,98723098913247.75
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),AgriculturalPractices,Human / Land Use,XGBoost,0.01095044226469543,0.9518538214982795,2.062298095923537e-05,0.18868547067308614
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),Encroachments,Human / Land Use,Linear Regression,0.0004511082732076349,0.9999182928455015,0.00045110827320720955,106066485288522.53
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),Encroachments,Human / Land Use,XGBoost,0.011019742781409846,0.9512425013781722,8.992349767365099e-05,0.8227354482197073
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),IneffectiveDisasterPreparedness,Socio-Political,Linear Regression,0.00046220209196520286,0.9999142246861594,0.0004622020919647775,108674910879295.56
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),IneffectiveDisasterPreparedness,Socio-Political,XGBoost,0.011070999624982052,0.9507878686754999,0.0001411803412458574,1.2916987699507234
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),DrainageSystems,Infrastructure,Linear Regression,0.0004438261187960714,0.9999209095192888,0.0004438261187956461,104354274341311.5
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),DrainageSystems,Infrastructure,XGBoost,0.011012473114820308,0.9513068102919273,8.265383108411323e-05,0.7562232177718061
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),CoastalVulnerability,Physical / Environmental,Linear Regression,0.00045819241721328704,0.9999157064591256,0.0004581924172128617,107732139191553.78
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),CoastalVulnerability,Physical / Environmental,XGBoost,0.011050360206653691,0.9509711878006105,0.00012054092291749648,1.102862909150419
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),Landslides,Physical / Environmental,Linear Regression,0.0004372596790030809,0.999923232505702,0.00043725967900265554,102810345242539.94
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),Landslides,Physical / Environmental,XGBoost,0.010894540944488098,0.9523441332269018,-3.527833924809633e-05,-0.3227714780297534
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),Watersheds,Physical / Environmental,Linear Regression,0.00048711144314761065,0.9999047302191298,0.0004871114431471853,114531702890560.48
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),Watersheds,Physical / Environmental,XGBoost,0.011055775606180377,0.9509231213737798,0.00012595632244418245,1.1524099271394923
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),DeterioratingInfrastructure,Infrastructure,Linear Regression,0.000431940000509453,0.9999250890420022,0.0004319400005090277,101559559934009.64
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),DeterioratingInfrastructure,Infrastructure,XGBoost,0.011062423224770825,0.9508640857231885,0.00013260394103463066,1.2132308649599373
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),PopulationScore,Human / Land Use,Linear Regression,0.00040362226836581825,0.9999345893085875,0.0004036222683653929,94901374974414.55
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),PopulationScore,Human / Land Use,XGBoost,0.010855831452957515,0.9526821845701325,-7.398783077867954e-05,-0.6769355362423514
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),WetlandLoss,Physical / Environmental,Linear Regression,0.0004714577538742956,0.9999107549642705,0.0004714577538738703,110851141256842.61
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),WetlandLoss,Physical / Environmental,XGBoost,0.011045708853461154,0.9510124538448025,0.00011588956972495915,1.060306366614911
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),InadequatePlanning,Socio-Political,Linear Regression,0.0004440644653853032,0.9999208245490392,0.00044406446538487786,104410315399527.05
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),InadequatePlanning,Socio-Political,XGBoost,0.010944370092211273,0.9519072021447691,1.4550808475078877e-05,0.13312945161619272
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),PoliticalFactors,Socio-Political,Linear Regression,0.0004429225954906725,0.9999212312099318,0.00044292259549024717,104141834120034.7
+multiplicative,Multiplicative (Proportional),0.2,1,σ (relative),PoliticalFactors,Socio-Political,XGBoost,0.010863747921922691,0.9526131476471961,-6.607136181350365e-05,-0.6045055283925805
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),MonsoonIntensity,Physical / Environmental,Linear Regression,0.002290599056757824,0.9978933292893102,0.0022905990567573986,538575338971591.5
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),MonsoonIntensity,Physical / Environmental,XGBoost,0.011221431314589674,0.9494414030659073,0.0002916120308534796,2.6680407359287686
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),TopographyDrainage,Physical / Environmental,Linear Regression,0.0022469545710832642,0.9979728443972742,0.002246954571082839,528313462892897.9
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),TopographyDrainage,Physical / Environmental,XGBoost,0.011106291429016516,0.950473614644352,0.0001764721452803212,1.6145934411094567
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),RiverManagement,Infrastructure,Linear Regression,0.00230547796974709,0.9978658720414154,0.0023054779697466647,542073731928264.9
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),RiverManagement,Infrastructure,XGBoost,0.011209428766647265,0.9495495011204272,0.0002796094829110706,2.5582260388068403
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),Deforestation,Human / Land Use,Linear Regression,0.00226504756664355,0.997940066712406,0.0022650475666431244,532567564538555.06
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),Deforestation,Human / Land Use,XGBoost,0.011217479417312003,0.9494770076502738,0.00028766013357580875,2.631883712879436
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),Urbanization,Human / Land Use,Linear Regression,0.002313382828650684,0.9978512122598767,0.0023133828286502588,543932355789549.75
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),Urbanization,Human / Land Use,XGBoost,0.011170069060843857,0.9499031731241832,0.0002402497771076626,2.1981129867824936
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),ClimateChange,Socio-Political,Linear Regression,0.002243026693473536,0.9979799255013564,0.0022430266934731105,527389923695211.8
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),ClimateChange,Socio-Political,XGBoost,0.011190760713029218,0.9497174005550524,0.00026094142929302365,2.3874267498760027
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),DamsQuality,Infrastructure,Linear Regression,0.0023261524954281835,0.9978274245544184,0.002326152495427758,546934813855249.6
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),DamsQuality,Infrastructure,XGBoost,0.011183287069007267,0.9497845396482848,0.0002534677852710724,2.3190482723555905
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),Siltation,Physical / Environmental,Linear Regression,0.002298508288724771,0.9978787558843961,0.0022985082887243455,540434991046028.94
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),Siltation,Physical / Environmental,XGBoost,0.01122735447305867,0.9493880149358297,0.0002975351893224759,2.7222333837231387
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),AgriculturalPractices,Human / Land Use,Linear Regression,0.0022168494568601503,0.9980268009135146,0.002216849456859725,521235021098529.7
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),AgriculturalPractices,Human / Land Use,XGBoost,0.011173409507508473,0.9498732053952476,0.0002435902237722786,2.2286756756787924
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),Encroachments,Human / Land Use,Linear Regression,0.002315756092092293,0.9978468011826053,0.0023157560920918675,544490367528340.25
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),Encroachments,Human / Land Use,XGBoost,0.0112264353366578,0.9493963013783275,0.0002966160529216059,2.713823945497223
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),IneffectiveDisasterPreparedness,Socio-Political,Linear Regression,0.002305077121504118,0.9978666140889084,0.0023050771215036925,541979482793874.44
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),IneffectiveDisasterPreparedness,Socio-Political,XGBoost,0.011158674228017428,0.9500053307381658,0.00022885494428123362,2.0938584466970527
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),DrainageSystems,Infrastructure,Linear Regression,0.0022646044770424697,0.9979408725636889,0.0022646044770420442,532463383437374.3
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),DrainageSystems,Infrastructure,XGBoost,0.011171404086595803,0.9498911974505638,0.0002415848028596082,2.21032751400649
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),CoastalVulnerability,Physical / Environmental,Linear Regression,0.0022975523432134945,0.9978805199607953,0.002297552343213069,540210225093971.44
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),CoastalVulnerability,Physical / Environmental,XGBoost,0.011224572749112016,0.9494130913917433,0.00029475346537582124,2.69678260659278
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),Landslides,Physical / Environmental,Linear Regression,0.0022468202959600777,0.9979730866704725,0.0022468202959596523,528281891557979.06
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),Landslides,Physical / Environmental,XGBoost,0.011253135327792792,0.9491553121496028,0.0003233160440565975,2.9581096966323925
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),Watersheds,Physical / Environmental,Linear Regression,0.0023179004550091826,0.9978428116627528,0.002317900455008757,544994559207558.4
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),Watersheds,Physical / Environmental,XGBoost,0.011159171610173544,0.9500008737551808,0.00022935232643734975,2.0984091363581
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),DeterioratingInfrastructure,Infrastructure,Linear Regression,0.0022313715259811256,0.9980008642948937,0.0022313715259807,524649511415516.9
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),DeterioratingInfrastructure,Infrastructure,XGBoost,0.011104070018823003,0.9504934245719747,0.0001742507350868082,1.5942691325747447
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),PopulationScore,Human / Land Use,Linear Regression,0.0021861294585557413,0.998081109224383,0.002186129458555316,514012005158138.44
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),PopulationScore,Human / Land Use,XGBoost,0.011218568700627379,0.9494671950136524,0.00028874941689118437,2.6418498732257145
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),WetlandLoss,Physical / Environmental,Linear Regression,0.0023076549062551154,0.9978618398584643,0.00230765490625469,542585582448010.2
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),WetlandLoss,Physical / Environmental,XGBoost,0.011236623864241096,0.9493044091401872,0.0003068045805049019,2.807041658606686
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),InadequatePlanning,Socio-Political,Linear Regression,0.002245930656101318,0.9979746914858587,0.0022459306561008925,528072715671400.06
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),InadequatePlanning,Socio-Political,XGBoost,0.011219726487186795,0.9494567642317973,0.0002899072034506008,2.6524427890769333
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),PoliticalFactors,Socio-Political,Linear Regression,0.0022458947922724642,0.9979747561670526,0.002245894792272039,528064283216263.7
+multiplicative,Multiplicative (Proportional),0.5,2,σ (relative),PoliticalFactors,Socio-Political,XGBoost,0.011146138523507168,0.950117596112892,0.00021631923977097345,1.9791657497289192
+bias,Systematic Bias,0.1,0,b (shift),MonsoonIntensity,Physical / Environmental,Linear Regression,0.0011172807435913118,0.9994987860734639,0.0011172807435908866,262699774292985.25
+bias,Systematic Bias,0.1,0,b (shift),MonsoonIntensity,Physical / Environmental,XGBoost,0.011818567301163272,0.9439173963784857,0.0008887480174270771,8.131406333035654
+bias,Systematic Bias,0.1,0,b (shift),TopographyDrainage,Physical / Environmental,Linear Regression,0.001124433353891465,0.9994923481873625,0.0011244333538910397,264381526280777.47
+bias,Systematic Bias,0.1,0,b (shift),TopographyDrainage,Physical / Environmental,XGBoost,0.01175117033365006,0.9445552097304872,0.0008213510499138661,7.514772464134463
+bias,Systematic Bias,0.1,0,b (shift),RiverManagement,Infrastructure,Linear Regression,0.0011112371089662255,0.9995041937763266,0.0011112371089658003,261278769356646.0
+bias,Systematic Bias,0.1,0,b (shift),RiverManagement,Infrastructure,XGBoost,0.01177605172430341,0.9443201686344393,0.0008462324405672152,7.742419326424064
+bias,Systematic Bias,0.1,0,b (shift),Deforestation,Human / Land Use,Linear Regression,0.0011112867625386474,0.9995041494669707,0.0011112867625382222,261290444114617.9
+bias,Systematic Bias,0.1,0,b (shift),Deforestation,Human / Land Use,XGBoost,0.011823514992666137,0.943870430025302,0.0008936957089299424,8.176674158371318
+bias,Systematic Bias,0.1,0,b (shift),Urbanization,Human / Land Use,Linear Regression,0.0011192113473334076,0.99949705243309,0.0011192113473329824,263153706010870.03
+bias,Systematic Bias,0.1,0,b (shift),Urbanization,Human / Land Use,XGBoost,0.011836474127833972,0.9437473212353912,0.0009066548440977776,8.295240941878147
+bias,Systematic Bias,0.1,0,b (shift),ClimateChange,Socio-Political,Linear Regression,0.0011148606277803935,0.9995009550574623,0.0011148606277799683,262130746426947.03
+bias,Systematic Bias,0.1,0,b (shift),ClimateChange,Socio-Political,XGBoost,0.011764756026545954,0.9444269346231179,0.0008349367428097595,7.639071801051307
+bias,Systematic Bias,0.1,0,b (shift),DamsQuality,Infrastructure,Linear Regression,0.0011213649171182424,0.999495115042516,0.0011213649171178171,263660062447822.5
+bias,Systematic Bias,0.1,0,b (shift),DamsQuality,Infrastructure,XGBoost,0.011877141714109175,0.9433601129167982,0.0009473224303729808,8.667320161300534
+bias,Systematic Bias,0.1,0,b (shift),Siltation,Physical / Environmental,Linear Regression,0.0011171143291422575,0.9994989353699198,0.0011171143291418323,262660646223825.88
+bias,Systematic Bias,0.1,0,b (shift),Siltation,Physical / Environmental,XGBoost,0.011706370369953272,0.94497715744884,0.0007765510862170772,7.104884957911443
+bias,Systematic Bias,0.1,0,b (shift),AgriculturalPractices,Human / Land Use,Linear Regression,0.0011205966019825634,0.9994958066601296,0.0011205966019821381,263479412943312.03
+bias,Systematic Bias,0.1,0,b (shift),AgriculturalPractices,Human / Land Use,XGBoost,0.011750646242598264,0.9445601551903251,0.0008208269588620698,7.509977407252085
+bias,Systematic Bias,0.1,0,b (shift),Encroachments,Human / Land Use,Linear Regression,0.0011161095062061234,0.9994998363605953,0.0011161095062056981,262424388004894.75
+bias,Systematic Bias,0.1,0,b (shift),Encroachments,Human / Land Use,XGBoost,0.011807837366819184,0.9440191835871816,0.0008780180830829896,8.033235136737343
+bias,Systematic Bias,0.1,0,b (shift),IneffectiveDisasterPreparedness,Socio-Political,Linear Regression,0.001111333273314044,0.9995041079603566,0.0011113332733136189,261301379924859.84
+bias,Systematic Bias,0.1,0,b (shift),IneffectiveDisasterPreparedness,Socio-Political,XGBoost,0.011735927010026504,0.9446989596201211,0.0008061077262903095,7.375306996061821
+bias,Systematic Bias,0.1,0,b (shift),DrainageSystems,Infrastructure,Linear Regression,0.0011199245998615023,0.9994964111906115,0.001119924599861077,263321408962182.12
+bias,Systematic Bias,0.1,0,b (shift),DrainageSystems,Infrastructure,XGBoost,0.011788267003019607,0.9442045955321144,0.0008584477192834124,7.854180357408113
+bias,Systematic Bias,0.1,0,b (shift),CoastalVulnerability,Physical / Environmental,Linear Regression,0.0011213726771656261,0.9994951080547019,0.001121372677165201,263661887022986.7
+bias,Systematic Bias,0.1,0,b (shift),CoastalVulnerability,Physical / Environmental,XGBoost,0.011823578267869284,0.9438698292531207,0.000893758984133089,8.177253081055252
+bias,Systematic Bias,0.1,0,b (shift),Landslides,Physical / Environmental,Linear Regression,0.001113623409191759,0.9995020620749107,0.0011136234091913338,261839846359215.84
+bias,Systematic Bias,0.1,0,b (shift),Landslides,Physical / Environmental,XGBoost,0.011778171879741816,0.9443001176824106,0.0008483525960056217,7.761817226639682
+bias,Systematic Bias,0.1,0,b (shift),Watersheds,Physical / Environmental,Linear Regression,0.0011170903549371915,0.9994989568762187,0.0011170903549367662,262655009307324.97
+bias,Systematic Bias,0.1,0,b (shift),Watersheds,Physical / Environmental,XGBoost,0.011749005426835239,0.944575636929503,0.0008191861430990443,7.494965120951368
+bias,Systematic Bias,0.1,0,b (shift),DeterioratingInfrastructure,Infrastructure,Linear Regression,0.001114800886859904,0.9995010085396729,0.0011148008868594789,262116699889030.2
+bias,Systematic Bias,0.1,0,b (shift),DeterioratingInfrastructure,Infrastructure,XGBoost,0.0118093257516413,0.9440050698682643,0.0008795064679051057,8.046852789357919
+bias,Systematic Bias,0.1,0,b (shift),PopulationScore,Human / Land Use,Linear Regression,0.0011203586880296904,0.9994960207280582,0.0011203586880292652,263423473608387.1
+bias,Systematic Bias,0.1,0,b (shift),PopulationScore,Human / Land Use,XGBoost,0.011764844625412782,0.9444260975927286,0.0008350253416765877,7.639882417078233
+bias,Systematic Bias,0.1,0,b (shift),WetlandLoss,Physical / Environmental,Linear Regression,0.0011139428827788432,0.9995017763394786,0.001113942882778418,261914962340316.38
+bias,Systematic Bias,0.1,0,b (shift),WetlandLoss,Physical / Environmental,XGBoost,0.011788819801822982,0.944199362471817,0.0008590005180867874,7.859238069608329
+bias,Systematic Bias,0.1,0,b (shift),InadequatePlanning,Socio-Political,Linear Regression,0.0011166148169242792,0.9994993833669434,0.001116614816923854,262543198798304.4
+bias,Systematic Bias,0.1,0,b (shift),InadequatePlanning,Socio-Political,XGBoost,0.011736327381560548,0.9446951863621548,0.0008065080978243537,7.3789701081742045
+bias,Systematic Bias,0.1,0,b (shift),PoliticalFactors,Socio-Political,Linear Regression,0.0011242801846486755,0.9994924864816377,0.0011242801846482503,264345512480539.47
+bias,Systematic Bias,0.1,0,b (shift),PoliticalFactors,Socio-Political,XGBoost,0.011793229612133162,0.9441576082921419,0.0008634103283969678,7.899584668172336
+bias,Systematic Bias,0.5,1,b (shift),MonsoonIntensity,Physical / Environmental,Linear Regression,0.005586403717956836,0.9874696518365944,0.005586403717956411,1313498871465391.2
+bias,Systematic Bias,0.5,1,b (shift),MonsoonIntensity,Physical / Environmental,XGBoost,0.01370380382240556,0.9245983641903366,0.0027739845386693662,25.379967103363864
+bias,Systematic Bias,0.5,1,b (shift),TopographyDrainage,Physical / Environmental,Linear Regression,0.005622166769457607,0.9873087046840632,0.005622166769457182,1321907631404353.5
+bias,Systematic Bias,0.5,1,b (shift),TopographyDrainage,Physical / Environmental,XGBoost,0.013698688583950198,0.9246546442374225,0.002768869300214003,25.333166343693716
+bias,Systematic Bias,0.5,1,b (shift),RiverManagement,Infrastructure,Linear Regression,0.005556185544831295,0.9876048444081631,0.00555618554483087,1306393846783669.2
+bias,Systematic Bias,0.5,1,b (shift),RiverManagement,Infrastructure,XGBoost,0.013814425577507602,0.923376115632479,0.002884606293771408,26.39207674790894
+bias,Systematic Bias,0.5,1,b (shift),Deforestation,Human / Land Use,Linear Regression,0.005556433812693452,0.9876037366742664,0.005556433812693027,1306452220573540.0
+bias,Systematic Bias,0.5,1,b (shift),Deforestation,Human / Land Use,XGBoost,0.013823886854703834,0.9232711227665183,0.0028940675709676397,26.478640642065088
+bias,Systematic Bias,0.5,1,b (shift),Urbanization,Human / Land Use,Linear Regression,0.005596056736667311,0.9874263108272481,0.005596056736666886,1315768530054814.0
+bias,Systematic Bias,0.5,1,b (shift),Urbanization,Human / Land Use,XGBoost,0.01377834453905829,0.9237758512376463,0.002848525255322096,26.061961148440606
+bias,Systematic Bias,0.5,1,b (shift),ClimateChange,Socio-Political,Linear Regression,0.005574303138902185,0.9875238764365569,0.00557430313890176,1310653732135186.2
+bias,Systematic Bias,0.5,1,b (shift),ClimateChange,Socio-Political,XGBoost,0.01369103158795857,0.9247388505242746,0.0027612123042223755,25.263110327277953
+bias,Systematic Bias,0.5,1,b (shift),DamsQuality,Infrastructure,Linear Regression,0.005606824585591488,0.9873778760628975,0.005606824585591063,1318300312239577.5
+bias,Systematic Bias,0.5,1,b (shift),DamsQuality,Infrastructure,XGBoost,0.01385224146252983,0.9229560379449873,0.0029224221787936353,26.73806494808439
+bias,Systematic Bias,0.5,1,b (shift),Siltation,Physical / Environmental,Linear Regression,0.005585571645711342,0.9874733842479964,0.005585571645710917,1313303231119542.2
+bias,Systematic Bias,0.5,1,b (shift),Siltation,Physical / Environmental,XGBoost,0.013647532970114245,0.9252163244579098,0.00271771368637805,24.865129201377247
+bias,Systematic Bias,0.5,1,b (shift),AgriculturalPractices,Human / Land Use,Linear Regression,0.005602983009913092,0.9873951665032392,0.005602983009912667,1317397064717024.8
+bias,Systematic Bias,0.5,1,b (shift),AgriculturalPractices,Human / Land Use,XGBoost,0.01372883688281097,0.9243226367019026,0.002799017599074775,25.609001635002084
+bias,Systematic Bias,0.5,1,b (shift),Encroachments,Human / Land Use,Linear Regression,0.0055805475310307245,0.9874959090148798,0.0055805475310302995,1312121940024899.0
+bias,Systematic Bias,0.5,1,b (shift),Encroachments,Human / Land Use,XGBoost,0.013720614752926057,0.9244132551265785,0.0027907954691898627,25.53377504916871
+bias,Systematic Bias,0.5,1,b (shift),IneffectiveDisasterPreparedness,Socio-Political,Linear Regression,0.005556666366570386,0.9876026990089148,0.005556666366569961,1306506899624738.2
+bias,Systematic Bias,0.5,1,b (shift),IneffectiveDisasterPreparedness,Socio-Political,XGBoost,0.013661520503101264,0.9250629523898092,0.002731701219365069,24.993105086649503
+bias,Systematic Bias,0.5,1,b (shift),DrainageSystems,Infrastructure,Linear Regression,0.005599622999307566,0.9874102797652882,0.005599622999307141,1316607044811323.5
+bias,Systematic Bias,0.5,1,b (shift),DrainageSystems,Infrastructure,XGBoost,0.013711547650584405,0.924513123289957,0.0027817283668482105,25.4508175719564
+bias,Systematic Bias,0.5,1,b (shift),CoastalVulnerability,Physical / Environmental,Linear Regression,0.0056068633858284,0.9873777013675468,0.005606863385827975,1318309435115396.8
+bias,Systematic Bias,0.5,1,b (shift),CoastalVulnerability,Physical / Environmental,XGBoost,0.013791559341987088,0.9236295680400217,0.0028617400582508935,26.182867108418012
+bias,Systematic Bias,0.5,1,b (shift),Landslides,Physical / Environmental,Linear Regression,0.005568117045959011,0.9875515518727664,0.005568117045958586,1309199231796529.8
+bias,Systematic Bias,0.5,1,b (shift),Landslides,Physical / Environmental,XGBoost,0.013730995550282916,0.9242988364182918,0.002801176266546721,25.628751892677048
+bias,Systematic Bias,0.5,1,b (shift),Watersheds,Physical / Environmental,Linear Regression,0.005585451774686015,0.987473921905467,0.00558545177468559,1313275046537038.5
+bias,Systematic Bias,0.5,1,b (shift),Watersheds,Physical / Environmental,XGBoost,0.013769990360006638,0.9238682566980482,0.002840171076270444,25.985526407528795
+bias,Systematic Bias,0.5,1,b (shift),DeterioratingInfrastructure,Infrastructure,Linear Regression,0.005574004434299743,0.9875252134918219,0.005574004434299318,1310583499445603.2
+bias,Systematic Bias,0.5,1,b (shift),DeterioratingInfrastructure,Infrastructure,XGBoost,0.01370721709442341,0.924560798219797,0.002777397810687216,25.411196091961408
+bias,Systematic Bias,0.5,1,b (shift),PopulationScore,Human / Land Use,Linear Regression,0.005601793440148729,0.9874005182014551,0.005601793440148304,1317117368042400.8
+bias,Systematic Bias,0.5,1,b (shift),PopulationScore,Human / Land Use,XGBoost,0.013675256539337488,0.9249121850608871,0.0027454372556012935,25.11877995719987
+bias,Systematic Bias,0.5,1,b (shift),WetlandLoss,Physical / Environmental,Linear Regression,0.005569714413894381,0.9875444084869632,0.005569714413893956,1309574811702020.5
+bias,Systematic Bias,0.5,1,b (shift),WetlandLoss,Physical / Environmental,XGBoost,0.013768461275510326,0.9238851638129926,0.002838641991774131,25.971536382107356
+bias,Systematic Bias,0.5,1,b (shift),InadequatePlanning,Socio-Political,Linear Regression,0.005583074084621679,0.9874845841735842,0.005583074084621254,1312715993991988.2
+bias,Systematic Bias,0.5,1,b (shift),InadequatePlanning,Socio-Political,XGBoost,0.013692229366609363,0.924725681298745,0.0027624100828731683,25.2740691420552
+bias,Systematic Bias,0.5,1,b (shift),PoliticalFactors,Socio-Political,Linear Regression,0.00562140092324355,0.9873121620409406,0.005621400923243125,1321727562403138.0
+bias,Systematic Bias,0.5,1,b (shift),PoliticalFactors,Socio-Political,XGBoost,0.013809888367636849,0.9234264400632758,0.0028800690839006545,26.350564534825008
+bias,Systematic Bias,1.0,2,b (shift),MonsoonIntensity,Physical / Environmental,Linear Regression,0.011172807435913661,0.9498786073463777,0.011172807435913236,2626997742930880.5
+bias,Systematic Bias,1.0,2,b (shift),MonsoonIntensity,Physical / Environmental,XGBoost,0.01588860660908801,0.8986391773052342,0.004958787325351814,45.36934414579568
+bias,Systematic Bias,1.0,2,b (shift),TopographyDrainage,Physical / Environmental,Linear Regression,0.0112443335389152,0.9492348187362528,0.011244333538914774,2643815262808803.5
+bias,Systematic Bias,1.0,2,b (shift),TopographyDrainage,Physical / Environmental,XGBoost,0.016008206859730843,0.8971074625689912,0.005078387575994648,46.46360057893544
+bias,Systematic Bias,1.0,2,b (shift),RiverManagement,Infrastructure,Linear Regression,0.01111237108966269,0.9504193776326513,0.011112371089662265,2612787693567462.0
+bias,Systematic Bias,1.0,2,b (shift),RiverManagement,Infrastructure,XGBoost,0.0161916310095356,0.894736041348163,0.005261811725799405,48.14179987064464
+bias,Systematic Bias,1.0,2,b (shift),Deforestation,Human / Land Use,Linear Regression,0.011112867625387005,0.9504149466970646,0.01111286762538658,2612904441147203.5
+bias,Systematic Bias,1.0,2,b (shift),Deforestation,Human / Land Use,XGBoost,0.016060978020371063,0.8964279725690362,0.005131158736634868,46.9464188147204
+bias,Systematic Bias,1.0,2,b (shift),Urbanization,Human / Land Use,Linear Regression,0.011192113473334667,0.9497052433089921,0.011192113473334242,2631537060109739.0
+bias,Systematic Bias,1.0,2,b (shift),Urbanization,Human / Land Use,XGBoost,0.016053109198231358,0.8965294346612915,0.005123289914495163,46.874424741118354
+bias,Systematic Bias,1.0,2,b (shift),ClimateChange,Socio-Political,Linear Regression,0.01114860627780441,0.9500955057462274,0.011148606277803985,2621307464270482.0
+bias,Systematic Bias,1.0,2,b (shift),ClimateChange,Socio-Political,XGBoost,0.01592723533643487,0.8981457168865722,0.004997416052698676,45.722769269707314
+bias,Systematic Bias,1.0,2,b (shift),DamsQuality,Infrastructure,Linear Regression,0.01121364917118302,0.9495115042515895,0.011213649171182595,2636600624479265.0
+bias,Systematic Bias,1.0,2,b (shift),DamsQuality,Infrastructure,XGBoost,0.016122586593288152,0.8956318612557805,0.005192767309551958,47.51009302851793
+bias,Systematic Bias,1.0,2,b (shift),Siltation,Physical / Environmental,Linear Regression,0.011171143291422674,0.9498935369919854,0.011171143291422249,2626606462239182.0
+bias,Systematic Bias,1.0,2,b (shift),Siltation,Physical / Environmental,XGBoost,0.015936080900635564,0.898032551134247,0.00500626161689937,45.80369983197064
+bias,Systematic Bias,1.0,2,b (shift),AgriculturalPractices,Human / Land Use,Linear Regression,0.011205966019826223,0.9495806660129567,0.011205966019825798,2634794129434159.0
+bias,Systematic Bias,1.0,2,b (shift),AgriculturalPractices,Human / Land Use,XGBoost,0.015991464285461398,0.8973225753680951,0.005061645001725203,46.31041804375521
+bias,Systematic Bias,1.0,2,b (shift),Encroachments,Human / Land Use,Linear Regression,0.011161095062061546,0.9499836360595185,0.011161095062061121,2624243880049921.0
+bias,Systematic Bias,1.0,2,b (shift),Encroachments,Human / Land Use,XGBoost,0.01594132737667462,0.8979654006419847,0.005011508092938426,45.85170132131697
+bias,Systematic Bias,1.0,2,b (shift),IneffectiveDisasterPreparedness,Socio-Political,Linear Regression,0.011113332733140817,0.9504107960356588,0.011113332733140392,2613013799249587.0
+bias,Systematic Bias,1.0,2,b (shift),IneffectiveDisasterPreparedness,Socio-Political,XGBoost,0.01595217458077416,0.8978264954362315,0.005022355297037966,45.95094545169048
+bias,Systematic Bias,1.0,2,b (shift),DrainageSystems,Infrastructure,Linear Regression,0.011199245998615229,0.9496411190611517,0.011199245998614804,2633214089622769.5
+bias,Systematic Bias,1.0,2,b (shift),DrainageSystems,Infrastructure,XGBoost,0.01597947672742152,0.8974764562420795,0.005049657443685327,46.2007404934803
+bias,Systematic Bias,1.0,2,b (shift),CoastalVulnerability,Physical / Environmental,Linear Regression,0.011213726771656843,0.9495108054701867,0.011213726771656418,2636618870230903.5
+bias,Systematic Bias,1.0,2,b (shift),CoastalVulnerability,Physical / Environmental,XGBoost,0.016065105679990855,0.8963747298574513,0.00513528639625466,46.984183937021506
+bias,Systematic Bias,1.0,2,b (shift),Landslides,Physical / Environmental,Linear Regression,0.011136234091918065,0.9502062074910653,0.01113623409191764,2618398463593170.0
+bias,Systematic Bias,1.0,2,b (shift),Landslides,Physical / Environmental,XGBoost,0.015979905426293378,0.897470955146159,0.005050086142557184,46.20466278039766
+bias,Systematic Bias,1.0,2,b (shift),Watersheds,Physical / Environmental,Linear Regression,0.011170903549372127,0.9498956876218669,0.011170903549371702,2626550093074199.5
+bias,Systematic Bias,1.0,2,b (shift),Watersheds,Physical / Environmental,XGBoost,0.016115399897474007,0.8957248853980536,0.005185580613737813,47.444339921100685
+bias,Systematic Bias,1.0,2,b (shift),DeterioratingInfrastructure,Infrastructure,Linear Regression,0.011148008868599527,0.9501008539672873,0.011148008868599102,2621166998891316.0
+bias,Systematic Bias,1.0,2,b (shift),DeterioratingInfrastructure,Infrastructure,XGBoost,0.015940731218240134,0.8979730320829772,0.005010911934503939,45.84624689961968
+bias,Systematic Bias,1.0,2,b (shift),PopulationScore,Human / Land Use,Linear Regression,0.011203586880297503,0.9496020728058203,0.011203586880297078,2634234736084912.0
+bias,Systematic Bias,1.0,2,b (shift),PopulationScore,Human / Land Use,XGBoost,0.015879011332233982,0.8987615658196249,0.004949192048497787,45.281554250968185
+bias,Systematic Bias,1.0,2,b (shift),WetlandLoss,Physical / Environmental,Linear Regression,0.011139428827788803,0.9501776339478526,0.011139428827788378,2619149623404151.0
+bias,Systematic Bias,1.0,2,b (shift),WetlandLoss,Physical / Environmental,XGBoost,0.016049270889199333,0.8965789085072525,0.0051194516054631385,46.83930696897242
+bias,Systematic Bias,1.0,2,b (shift),InadequatePlanning,Socio-Political,Linear Regression,0.011166148169243455,0.9499383366943361,0.01116614816924303,2625431987984100.0
+bias,Systematic Bias,1.0,2,b (shift),InadequatePlanning,Socio-Political,XGBoost,0.016033670396773638,0.8967798691382133,0.0051038511130374435,46.69657366276937
+bias,Systematic Bias,1.0,2,b (shift),PoliticalFactors,Socio-Political,Linear Regression,0.011242801846487143,0.949248648163762,0.011242801846486718,2643455124806386.0
+bias,Systematic Bias,1.0,2,b (shift),PoliticalFactors,Socio-Political,XGBoost,0.016109767539409476,0.8957977612996961,0.005179948255673281,47.39280788824345
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),MonsoonIntensity,Physical / Environmental,Linear Regression,0.0014928154550595202,0.9991052313744039,0.001492815455059095,350997084085342.44
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),MonsoonIntensity,Physical / Environmental,XGBoost,0.01104902408137897,0.9509830434638725,0.00011920479764277597,1.090638322082372
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),TopographyDrainage,Physical / Environmental,Linear Regression,0.0014849984212788143,0.9991145776383188,0.001484998421278389,349159110038432.6
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),TopographyDrainage,Physical / Environmental,XGBoost,0.011015744864312149,0.9512778729982966,8.592558057595422e-05,0.7861573768544675
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),RiverManagement,Infrastructure,Linear Regression,0.0014788207870811284,0.9991219290780126,0.0014788207870807032,347706598555794.1
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),RiverManagement,Infrastructure,XGBoost,0.011035143693624867,0.951106121664538,0.000105324409888672,0.963642738772424
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),Deforestation,Human / Land Use,Linear Regression,0.0016838368967042364,0.998861590410281,0.0016838368967038112,395910853424915.3
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),Deforestation,Human / Land Use,XGBoost,0.010956339013765101,0.9518019546663715,2.651973002890627e-05,0.24263649142276486
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),Urbanization,Human / Land Use,Linear Regression,0.0016956998060380917,0.9988454933384995,0.0016956998060376665,398700110845074.6
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),Urbanization,Human / Land Use,XGBoost,0.01101462246612073,0.9512878011224377,8.480318238453591e-05,0.7758882391653525
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),ClimateChange,Socio-Political,Linear Regression,0.0016060334602469501,0.9989643627078869,0.001606033460246525,377617380353091.0
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),ClimateChange,Socio-Political,XGBoost,0.010906017408436053,0.9522436776121492,-2.3801875300141773e-05,-0.217770071784805
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),DamsQuality,Infrastructure,Linear Regression,0.0014891116314824358,0.9991096658861953,0.0014891116314820106,350126225419512.4
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),DamsQuality,Infrastructure,XGBoost,0.01088634016919899,0.9524158513406268,-4.3479114537205155e-05,-0.39780268464184954
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),Siltation,Physical / Environmental,Linear Regression,0.00147665450049424,0.9991244997208782,0.0014766545004938148,347197252090553.44
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),Siltation,Physical / Environmental,XGBoost,0.011002000285492265,0.9513993804125291,7.218100175607027e-05,0.660404347796282
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),AgriculturalPractices,Human / Land Use,Linear Regression,0.001466759756365155,0.9991361934885032,0.0014667597563647297,344870757998259.94
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),AgriculturalPractices,Human / Land Use,XGBoost,0.010977969350849177,0.951611458721864,4.8150067112982115e-05,0.4405385474637302
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),Encroachments,Human / Land Use,Linear Regression,0.0015088684718164052,0.9990858840853182,0.00150886847181598,354771537286067.56
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),Encroachments,Human / Land Use,XGBoost,0.01107098061306511,0.9507880376965787,0.0001411613293289156,1.2915248245592374
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),IneffectiveDisasterPreparedness,Socio-Political,Linear Regression,0.0014608609670843536,0.9991431273665217,0.0014608609670839284,343483809711933.94
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),IneffectiveDisasterPreparedness,Socio-Political,XGBoost,0.010993954603153607,0.9514704369767184,6.413531941741255e-05,0.5867921303405929
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),DrainageSystems,Infrastructure,Linear Regression,0.0014280994424469185,0.9991811291690579,0.0014280994424464932,335780781464899.44
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),DrainageSystems,Infrastructure,XGBoost,0.010982141913976002,0.9515746681994921,5.2322630239807e-05,0.4787145046182438
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),CoastalVulnerability,Physical / Environmental,Linear Regression,0.0014845105988153132,0.9991151592658373,0.001484510598814888,349044411157429.0
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),CoastalVulnerability,Physical / Environmental,XGBoost,0.011019793195138907,0.9512420552601464,8.997391140271212e-05,0.8231966976489284
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),Landslides,Physical / Environmental,Linear Regression,0.001475104836946023,0.9991263363305432,0.0014751048369455978,346832888642349.44
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),Landslides,Physical / Environmental,XGBoost,0.011008651451471617,0.9513406004655293,7.883216773542194e-05,0.7212577416785463
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),Watersheds,Physical / Environmental,Linear Regression,0.0014679887482808589,0.9991347453222652,0.0014679887482804336,345159723775854.56
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),Watersheds,Physical / Environmental,XGBoost,0.010980666105540398,0.9515876823659091,5.084682180420304e-05,0.4652119169057461
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),DeterioratingInfrastructure,Infrastructure,Linear Regression,0.0016711896246944936,0.9988786273394943,0.0016711896246940684,392937173334714.1
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),DeterioratingInfrastructure,Infrastructure,XGBoost,0.010999697464142588,0.9514197234099281,6.98781804063936e-05,0.6393351856272118
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),PopulationScore,Human / Land Use,Linear Regression,0.0020639642380379814,0.9982895797156994,0.002063964238037556,485288001777104.9
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),PopulationScore,Human / Land Use,XGBoost,0.010938342440314731,0.9519601621257813,8.523156578536459e-06,0.07798076397492773
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),WetlandLoss,Physical / Environmental,Linear Regression,0.0016927606739598855,0.9988494920496129,0.0016927606739594603,398009049678943.25
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),WetlandLoss,Physical / Environmental,XGBoost,0.011030943798978904,0.9511433318842424,0.00010112451524270892,0.9252167178389158
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),InadequatePlanning,Socio-Political,Linear Regression,0.0014505045533769645,0.9991552334768449,0.0014505045533765393,341048765915625.5
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),InadequatePlanning,Socio-Political,XGBoost,0.010951169379845733,0.9518474274226356,2.135009610953857e-05,0.1953380523071225
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),PoliticalFactors,Socio-Political,Linear Regression,0.0014546666102114659,0.9991503785998237,0.0014546666102110406,342027366323168.56
+salt_pepper,Salt & Pepper,0.01,0,p (fraction),PoliticalFactors,Socio-Political,XGBoost,0.011008425565122753,0.9513425973279752,7.860628138655831e-05,0.719191043748785
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),MonsoonIntensity,Physical / Environmental,Linear Regression,0.004848967278604569,0.9905594562532203,0.004848967278604144,1140109696645603.2
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),MonsoonIntensity,Physical / Environmental,XGBoost,0.011165214624002133,0.949946707149969,0.00023539534026593804,2.1536983746493537
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),TopographyDrainage,Physical / Environmental,Linear Regression,0.004819916094968722,0.9906722379581442,0.004819916094968297,1133279059468815.2
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),TopographyDrainage,Physical / Environmental,XGBoost,0.01102750235788051,0.951173811799805,9.768307414431514e-05,0.8937300023767972
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),RiverManagement,Infrastructure,Linear Regression,0.0049198792866631666,0.9902813174547076,0.0049198792866627416,1156782827923051.5
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),RiverManagement,Infrastructure,XGBoost,0.011083381274817467,0.9506777308144324,0.00015356199108127258,1.4049819772388745
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),Deforestation,Human / Land Use,Linear Regression,0.00528020669580404,0.9888056121655804,0.005280206695803615,1241504532468551.5
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),Deforestation,Human / Land Use,XGBoost,0.01101955099539575,0.9512441985003524,8.973171165955508e-05,0.8209807438726622
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),Urbanization,Human / Land Use,Linear Regression,0.005299803165258382,0.9887223663505792,0.005299803165257957,1246112137255553.8
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),Urbanization,Human / Land Use,XGBoost,0.01114321738952581,0.9501437386358482,0.00021339810578961498,1.952439470862578
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),ClimateChange,Socio-Political,Linear Regression,0.00527092634028313,0.988844927521805,0.005270926340282705,1239322496024545.2
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),ClimateChange,Socio-Political,XGBoost,0.011218486391158298,0.949467936518777,0.0002886671074221036,2.641096800673058
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),DamsQuality,Infrastructure,Linear Regression,0.004863693243936058,0.990502028677201,0.004863693243935633,1143572127902043.8
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),DamsQuality,Infrastructure,XGBoost,0.010973956982791539,0.9516468235786033,4.413769905534451e-05,0.4038282601892819
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),Siltation,Physical / Environmental,Linear Regression,0.004843301747378417,0.9905815040196772,0.004843301747377992,1138777592979718.2
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),Siltation,Physical / Environmental,XGBoost,0.011060011203516767,0.9508855103146391,0.00013019191978057287,1.1911626020596813
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),AgriculturalPractices,Human / Land Use,Linear Regression,0.004764721713980325,0.9908846450805211,0.0047647217139799,1120301523150331.8
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),AgriculturalPractices,Human / Land Use,XGBoost,0.011038387532599156,0.9510773722102895,0.00010856824886296135,0.9933215366562669
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),Encroachments,Human / Land Use,Linear Regression,0.004905613854467277,0.9903375953429705,0.004905613854466852,1153428679165410.0
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),Encroachments,Human / Land Use,XGBoost,0.011145859597438393,0.9501200926418378,0.00021604031370219857,1.97661377643884
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),IneffectiveDisasterPreparedness,Socio-Political,Linear Regression,0.004875271111474985,0.9904567556166144,0.00487527111147456,1146294365089713.5
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),IneffectiveDisasterPreparedness,Socio-Political,XGBoost,0.011071977722162243,0.9507791727356959,0.0001421584384260488,1.3006476569798697
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),DrainageSystems,Infrastructure,Linear Regression,0.00480844033239741,0.990716602113279,0.004808440332396985,1130580829633013.8
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),DrainageSystems,Infrastructure,XGBoost,0.011165643055869484,0.9499428657841058,0.00023582377213328919,2.157618218667165
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),CoastalVulnerability,Physical / Environmental,Linear Regression,0.004936160991110038,0.9902168855694686,0.004936160991109613,1160611051140746.5
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),CoastalVulnerability,Physical / Environmental,XGBoost,0.011074173062531105,0.9507596518904673,0.00014435377879491035,1.3207334453343786
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),Landslides,Physical / Environmental,Linear Regression,0.004825124322626814,0.9906520685797591,0.004825124322626389,1134503639985481.0
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),Landslides,Physical / Environmental,XGBoost,0.011115491017272222,0.9503915330499613,0.00018567173353602716,1.6987630693245832
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),Watersheds,Physical / Environmental,Linear Regression,0.004819990821572739,0.9906719487259791,0.004819990821572314,1133296629504029.5
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),Watersheds,Physical / Environmental,XGBoost,0.011192165008408281,0.9497047801346394,0.00026234572467208686,2.400275044459911
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),DeterioratingInfrastructure,Infrastructure,Linear Regression,0.005298207495302219,0.9887291562903548,0.005298207495301794,1245736956586116.2
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),DeterioratingInfrastructure,Infrastructure,XGBoost,0.011143738115959083,0.9501390789260277,0.00021391883222288827,1.9572037439009085
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),PopulationScore,Human / Land Use,Linear Regression,0.00594064690845092,0.9858301261944307,0.005940646908450495,1396790028787707.5
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),PopulationScore,Human / Land Use,XGBoost,0.011080295494366114,0.9507051911179679,0.00015047621062991984,1.376749301370716
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),WetlandLoss,Physical / Environmental,Linear Regression,0.005306950313382424,0.9886919285154565,0.005306950313381999,1247792604953394.8
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),WetlandLoss,Physical / Environmental,XGBoost,0.011166054480029183,0.949939176772428,0.00023623519629298838,2.161382454369684
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),InadequatePlanning,Socio-Political,Linear Regression,0.004821238871929967,0.9906671174367159,0.004821238871929542,1133590076383008.2
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),InadequatePlanning,Socio-Political,XGBoost,0.01111625476835524,0.9503847155693892,0.00018643548461904497,1.7057508434422604
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),PoliticalFactors,Socio-Political,Linear Regression,0.004818218357430154,0.9906788079076843,0.004818218357429729,1132879880237678.5
+salt_pepper,Salt & Pepper,0.05,1,p (fraction),PoliticalFactors,Socio-Political,XGBoost,0.011151271353740472,0.9500716435413616,0.00022145207000427714,2.0261274615382026
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),MonsoonIntensity,Physical / Environmental,Linear Regression,0.006931162839875764,0.980710955873159,0.006931162839875339,1629684324256020.5
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),MonsoonIntensity,Physical / Environmental,XGBoost,0.011249924633297605,0.9491843215707493,0.0003201053495614104,2.9287341469381296
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),TopographyDrainage,Physical / Environmental,Linear Regression,0.006915814286018067,0.9807962896444281,0.006915814286017642,1626075507351880.8
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),TopographyDrainage,Physical / Environmental,XGBoost,0.011199577241894333,0.9496381400592535,0.0002697579581581386,2.468091659663067
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),RiverManagement,Infrastructure,Linear Regression,0.007020083175818451,0.9802128604007797,0.007020083175818026,1650591649756972.5
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),RiverManagement,Infrastructure,XGBoost,0.01107647462706573,0.9507391823502118,0.00014665534332953568,1.3417911085479883
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),Deforestation,Human / Land Use,Linear Regression,0.00727610344129205,0.9787432810047851,0.007276103441291625,1710788217486391.8
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),Deforestation,Human / Land Use,XGBoost,0.011125555546898832,0.9503016563321516,0.0001957362631626377,1.7908462901477011
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),Urbanization,Human / Land Use,Linear Regression,0.007371747936640043,0.9781807682077491,0.007371747936639618,1733276555788483.2
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),Urbanization,Human / Land Use,XGBoost,0.011128723676520909,0.9502733479547337,0.00019890439278471422,1.8198324018100485
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),ClimateChange,Socio-Political,Linear Regression,0.0072162415353001505,0.9790916084593881,0.0072162415352997255,1696713232946446.8
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),ClimateChange,Socio-Political,XGBoost,0.011216602777817504,0.9494849040266682,0.0002867834940813094,2.623863090838559
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),DamsQuality,Infrastructure,Linear Regression,0.006902443890721753,0.9808704712198238,0.006902443890721328,1622931803455883.2
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),DamsQuality,Infrastructure,XGBoost,0.01115617875232779,0.9500276894035,0.00022635946859159498,2.0710266356226286
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),Siltation,Physical / Environmental,Linear Regression,0.006882938745726569,0.9809784321233233,0.006882938745726144,1618345671262001.0
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),Siltation,Physical / Environmental,XGBoost,0.011115561482341316,0.9503909040763737,0.0001857421986051211,1.699407774120378
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),AgriculturalPractices,Human / Land Use,Linear Regression,0.0068503523777731605,0.9811581159904155,0.0068503523777727355,1610683826595390.5
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),AgriculturalPractices,Human / Land Use,XGBoost,0.011267255803286764,0.9490276318913025,0.0003374365195505692,3.0873019104047037
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),Encroachments,Human / Land Use,Linear Regression,0.007043716347706044,0.98007940898584,0.007043716347705619,1656148381094473.5
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),Encroachments,Human / Land Use,XGBoost,0.011205035996017115,0.9495890346328739,0.00027521671228092,2.518035341082431
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),IneffectiveDisasterPreparedness,Socio-Political,Linear Regression,0.006932139079879828,0.9807055218462614,0.006932139079879403,1629913861935063.5
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),IneffectiveDisasterPreparedness,Socio-Political,XGBoost,0.011123894277538678,0.9503164971499658,0.0001940749938024837,1.7756468681167623
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),DrainageSystems,Infrastructure,Linear Regression,0.006855471111088699,0.98112994733351,0.006855471111088274,1611887364823693.0
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),DrainageSystems,Infrastructure,XGBoost,0.011044236228370856,0.9510255151125996,0.00011441694463466129,1.0468329042266613
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),CoastalVulnerability,Physical / Environmental,Linear Regression,0.00699078421283032,0.9803776826262669,0.006990784212829895,1643702753650821.8
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),CoastalVulnerability,Physical / Environmental,XGBoost,0.011165547978794084,0.9499437182680401,0.000235728695057889,2.1567483316824676
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),Landslides,Physical / Environmental,Linear Regression,0.006892432503691946,0.9809259223710076,0.006892432503691521,1620577883791397.5
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),Landslides,Physical / Environmental,XGBoost,0.01117009353705681,0.9499029535764008,0.00024027425332061488,2.198336926559693
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),Watersheds,Physical / Environmental,Linear Regression,0.006865061566163912,0.9810771139176843,0.006865061566163487,1614142313186562.2
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),Watersheds,Physical / Environmental,XGBoost,0.011092535631371,0.9505962213740247,0.00016271634763480487,1.4887377678506568
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),DeterioratingInfrastructure,Infrastructure,Linear Regression,0.0073255800177986575,0.9784532121683269,0.0073255800177982324,1722421359430020.0
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),DeterioratingInfrastructure,Infrastructure,XGBoost,0.011246629674553631,0.9492140837335304,0.0003168103908174364,2.898587639860222
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),PopulationScore,Human / Land Use,Linear Regression,0.007910642626860748,0.9748740765392465,0.007910642626860323,1859983754763090.2
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),PopulationScore,Human / Land Use,XGBoost,0.011185403114171114,0.9497655348182755,0.00025558383043491895,2.3384085665097243
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),WetlandLoss,Physical / Environmental,Linear Regression,0.007280354629988311,0.978718434540388,0.007280354629987886,1711787774954280.8
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),WetlandLoss,Physical / Environmental,XGBoost,0.011134374108620903,0.9502228393052379,0.0002045548248847083,1.871529799116535
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),InadequatePlanning,Socio-Political,Linear Regression,0.006856470340536368,0.981124446067104,0.006856470340535943,1612122307877957.0
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),InadequatePlanning,Socio-Political,XGBoost,0.011189192009466139,0.9497314966413507,0.0002593727257299439,2.37307423843591
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),PoliticalFactors,Socio-Political,Linear Regression,0.006877231964841339,0.981009961364742,0.006877231964840914,1617003868801796.5
+salt_pepper,Salt & Pepper,0.1,2,p (fraction),PoliticalFactors,Socio-Political,XGBoost,0.011316696800882438,0.9485793144024525,0.00038687751714624324,3.539651545034466
+mnar,MNAR Missingness,0.1,0,p (miss rate),MonsoonIntensity,Physical / Environmental,Linear Regression,0.0004612004999327105,0.999914596033615,0.0004612004999322852,108439412324094.7
+mnar,MNAR Missingness,0.1,0,p (miss rate),MonsoonIntensity,Physical / Environmental,XGBoost,0.010914611186387433,0.952168385429427,-1.5208097348761926e-05,-0.13914317294698458
+mnar,MNAR Missingness,0.1,0,p (miss rate),TopographyDrainage,Physical / Environmental,Linear Regression,0.00044569089490138075,0.9999202435112718,0.0004456908949009554,104792728386798.11
+mnar,MNAR Missingness,0.1,0,p (miss rate),TopographyDrainage,Physical / Environmental,XGBoost,0.010954727123095788,0.9518161353638839,2.4907839359593342e-05,0.22788884896438077
+mnar,MNAR Missingness,0.1,0,p (miss rate),RiverManagement,Infrastructure,Linear Regression,0.0004469699173780928,0.9999197850917029,0.00044696991737766745,105093457561515.66
+mnar,MNAR Missingness,0.1,0,p (miss rate),RiverManagement,Infrastructure,XGBoost,0.010944618551440398,0.951905018513365,1.4799267704203659e-05,0.13540267519541963
+mnar,MNAR Missingness,0.1,0,p (miss rate),Deforestation,Human / Land Use,Linear Regression,0.0004460874367009031,0.9999201015256424,0.00044608743670047777,104885964971989.27
+mnar,MNAR Missingness,0.1,0,p (miss rate),Deforestation,Human / Land Use,XGBoost,0.010958026833244412,0.9517871037447977,2.8207549508217286e-05,0.25807882798383247
+mnar,MNAR Missingness,0.1,0,p (miss rate),Urbanization,Human / Land Use,Linear Regression,0.0004413177405432059,0.9999218009865323,0.00044131774054278057,103764493836591.3
+mnar,MNAR Missingness,0.1,0,p (miss rate),Urbanization,Human / Land Use,XGBoost,0.010883955445412763,0.9524366962932311,-4.586383832343166e-05,-0.41962119530812403
+mnar,MNAR Missingness,0.1,0,p (miss rate),ClimateChange,Socio-Political,Linear Regression,0.00045507224692165944,0.9999168505840692,0.0004550722469212341,106998511554929.64
+mnar,MNAR Missingness,0.1,0,p (miss rate),ClimateChange,Socio-Political,XGBoost,0.010978044780355358,0.951610793765314,4.822549661916316e-05,0.4412286732949348
+mnar,MNAR Missingness,0.1,0,p (miss rate),DamsQuality,Infrastructure,Linear Regression,0.0004641707064493329,0.9999134924604518,0.0004641707064489076,109137779843624.75
+mnar,MNAR Missingness,0.1,0,p (miss rate),DamsQuality,Infrastructure,XGBoost,0.01083552004035943,0.9528590835149275,-9.4299243376764e-05,-0.862770380083807
+mnar,MNAR Missingness,0.1,0,p (miss rate),Siltation,Physical / Environmental,Linear Regression,0.0004413597728210465,0.9999217860900579,0.0004413597728206212,103774376643544.77
+mnar,MNAR Missingness,0.1,0,p (miss rate),Siltation,Physical / Environmental,XGBoost,0.010936570427528595,0.9519757257840069,6.751143792400882e-06,0.06176811909824281
+mnar,MNAR Missingness,0.1,0,p (miss rate),AgriculturalPractices,Human / Land Use,Linear Regression,0.0004538476797336937,0.9999172974803552,0.0004538476797332684,106710586138036.39
+mnar,MNAR Missingness,0.1,0,p (miss rate),AgriculturalPractices,Human / Land Use,XGBoost,0.010895572578424098,0.952335107470356,-3.424670531209685e-05,-0.31333276811865207
+mnar,MNAR Missingness,0.1,0,p (miss rate),Encroachments,Human / Land Use,Linear Regression,0.00045854494685577436,0.999915576699652,0.00045854494685534903,107815027452220.8
+mnar,MNAR Missingness,0.1,0,p (miss rate),Encroachments,Human / Land Use,XGBoost,0.010912135478473492,0.9521900817912525,-1.768380526270298e-05,-0.1617941230649336
+mnar,MNAR Missingness,0.1,0,p (miss rate),IneffectiveDisasterPreparedness,Socio-Political,Linear Regression,0.0004580342065074461,0.9999157646610412,0.00045803420650702075,107694940021198.81
+mnar,MNAR Missingness,0.1,0,p (miss rate),IneffectiveDisasterPreparedness,Socio-Political,XGBoost,0.010844175167913063,0.9527837435962669,-8.564411582313164e-05,-0.7835821764278565
+mnar,MNAR Missingness,0.1,0,p (miss rate),DrainageSystems,Infrastructure,Linear Regression,0.00045033458438446003,0.9999185728745129,0.0004503345843840347,105884572299878.5
+mnar,MNAR Missingness,0.1,0,p (miss rate),DrainageSystems,Infrastructure,XGBoost,0.010932578733852625,0.9520107757495122,2.7594501164299873e-06,0.025246987574040754
+mnar,MNAR Missingness,0.1,0,p (miss rate),CoastalVulnerability,Physical / Environmental,Linear Regression,0.00044053468932023026,0.999922078244854,0.0004405346893198049,103580379520905.14
+mnar,MNAR Missingness,0.1,0,p (miss rate),CoastalVulnerability,Physical / Environmental,XGBoost,0.010937536310956595,0.9519672427043724,7.71702722040038e-06,0.07060525906300648
+mnar,MNAR Missingness,0.1,0,p (miss rate),Landslides,Physical / Environmental,Linear Regression,0.0004778213685314676,0.9999083294920489,0.0004778213685310423,112347381251773.33
+mnar,MNAR Missingness,0.1,0,p (miss rate),Landslides,Physical / Environmental,XGBoost,0.010946908817929382,0.951884887734229,1.7089534193187594e-05,0.156356969402204
+mnar,MNAR Missingness,0.1,0,p (miss rate),Watersheds,Physical / Environmental,Linear Regression,0.00043660303320011733,0.9999234629006137,0.000436603033199692,102655951903875.08
+mnar,MNAR Missingness,0.1,0,p (miss rate),Watersheds,Physical / Environmental,XGBoost,0.01101245872816083,0.9513069375170973,8.263944442463492e-05,0.756091590165669
+mnar,MNAR Missingness,0.1,0,p (miss rate),DeterioratingInfrastructure,Infrastructure,Linear Regression,0.0004800613802556693,0.9999074679804173,0.00048006138025524396,112874062283140.77
+mnar,MNAR Missingness,0.1,0,p (miss rate),DeterioratingInfrastructure,Infrastructure,XGBoost,0.010932518330572884,0.9520113060358426,2.699046836689145e-06,0.024694340927533767
+mnar,MNAR Missingness,0.1,0,p (miss rate),PopulationScore,Human / Land Use,Linear Regression,0.00044387978602369497,0.9999208903909713,0.00044387978602326964,104366892806871.3
+mnar,MNAR Missingness,0.1,0,p (miss rate),PopulationScore,Human / Land Use,XGBoost,0.010904343509549531,0.952258336147374,-2.547577418666319e-05,-0.2330850449153509
+mnar,MNAR Missingness,0.1,0,p (miss rate),WetlandLoss,Physical / Environmental,Linear Regression,0.00046663554528705387,0.9999125712765875,0.00046663554528662853,109717323176893.7
+mnar,MNAR Missingness,0.1,0,p (miss rate),WetlandLoss,Physical / Environmental,XGBoost,0.010959510170979408,0.9517740501449455,2.9690887243213546e-05,0.2716503033805346
+mnar,MNAR Missingness,0.1,0,p (miss rate),InadequatePlanning,Socio-Political,Linear Regression,0.00041508362696357335,0.9999308217282599,0.000415083626963148,97596218087027.73
+mnar,MNAR Missingness,0.1,0,p (miss rate),InadequatePlanning,Socio-Political,XGBoost,0.01090806802456857,0.9522257170518202,-2.175125916762527e-05,-0.1990084062962652
+mnar,MNAR Missingness,0.1,0,p (miss rate),PoliticalFactors,Socio-Political,Linear Regression,0.0004449033809084857,0.9999205251138852,0.0004449033809080604,104607564765771.95
+mnar,MNAR Missingness,0.1,0,p (miss rate),PoliticalFactors,Socio-Political,XGBoost,0.010934368700525807,0.9519950601262899,4.549416789612765e-06,0.04162389762822881
+mnar,MNAR Missingness,0.3,1,p (miss rate),MonsoonIntensity,Physical / Environmental,Linear Regression,0.0014946492586061634,0.9991030317218116,0.0014946492586057382,351428255731828.06
+mnar,MNAR Missingness,0.3,1,p (miss rate),MonsoonIntensity,Physical / Environmental,XGBoost,0.011066614166437564,0.9508268488984454,0.00013679488270136944,1.2515749725608287
+mnar,MNAR Missingness,0.3,1,p (miss rate),TopographyDrainage,Physical / Environmental,Linear Regression,0.001475222988199104,0.9991261963695197,0.0014752229881986787,346860668864728.5
+mnar,MNAR Missingness,0.3,1,p (miss rate),TopographyDrainage,Physical / Environmental,XGBoost,0.011115767753112299,0.9503890628735833,0.00018594846937610397,1.701295003594426
+mnar,MNAR Missingness,0.3,1,p (miss rate),RiverManagement,Infrastructure,Linear Regression,0.0014792033760193692,0.9991214746839703,0.001479203376018944,347796554485223.1
+mnar,MNAR Missingness,0.3,1,p (miss rate),RiverManagement,Infrastructure,XGBoost,0.011076333034118578,0.9507404417653242,0.00014651375038238386,1.340495634730205
+mnar,MNAR Missingness,0.3,1,p (miss rate),Deforestation,Human / Land Use,Linear Regression,0.0015176914768362283,0.9990751623690766,0.001517691476835803,356846039545762.94
+mnar,MNAR Missingness,0.3,1,p (miss rate),Deforestation,Human / Land Use,XGBoost,0.010972208667416114,0.9516622291188198,4.238938367991975e-05,0.38783242960838393
+mnar,MNAR Missingness,0.3,1,p (miss rate),Urbanization,Human / Land Use,Linear Regression,0.0014782899390404789,0.9991225593620487,0.0014782899390400537,347581783319102.3
+mnar,MNAR Missingness,0.3,1,p (miss rate),Urbanization,Human / Land Use,XGBoost,0.010968996226389163,0.9516905296208035,3.917694265296798e-05,0.35844090040229765
+mnar,MNAR Missingness,0.3,1,p (miss rate),ClimateChange,Socio-Political,Linear Regression,0.0015007977286323594,0.9990956369087391,0.0015007977286319342,352873910011107.7
+mnar,MNAR Missingness,0.3,1,p (miss rate),ClimateChange,Socio-Political,XGBoost,0.011054611847956728,0.9509334527367101,0.00012479256422053345,1.1417623748475645
+mnar,MNAR Missingness,0.3,1,p (miss rate),DamsQuality,Infrastructure,Linear Regression,0.0014947501698886205,0.9991029106000511,0.0014947501698881953,351451982419392.75
+mnar,MNAR Missingness,0.3,1,p (miss rate),DamsQuality,Infrastructure,XGBoost,0.011102207300181497,0.9505100327320528,0.00017238801644530247,1.5772265942385666
+mnar,MNAR Missingness,0.3,1,p (miss rate),Siltation,Physical / Environmental,Linear Regression,0.0014447654845337007,0.9991619050616756,0.0014447654845332755,339699371774156.8
+mnar,MNAR Missingness,0.3,1,p (miss rate),Siltation,Physical / Environmental,XGBoost,0.01095251645778308,0.9518355804215788,2.2697174046884885e-05,0.20766284837535023
+mnar,MNAR Missingness,0.3,1,p (miss rate),AgriculturalPractices,Human / Land Use,Linear Regression,0.0014921621341669564,0.9991060143822676,0.0014921621341665312,350843472513674.4
+mnar,MNAR Missingness,0.3,1,p (miss rate),AgriculturalPractices,Human / Land Use,XGBoost,0.010995211345932015,0.9514593413035102,6.53920621958206e-05,0.5982904245555586
+mnar,MNAR Missingness,0.3,1,p (miss rate),Encroachments,Human / Land Use,Linear Regression,0.0014885396064015968,0.9991103497780044,0.0014885396064011716,349991728462961.1
+mnar,MNAR Missingness,0.3,1,p (miss rate),Encroachments,Human / Land Use,XGBoost,0.011055841566797984,0.9509225357702009,0.00012602228306178923,1.1530134194378958
+mnar,MNAR Missingness,0.3,1,p (miss rate),IneffectiveDisasterPreparedness,Socio-Political,Linear Regression,0.0014699639236095531,0.9991324153596655,0.001469963923609128,345624135353708.7
+mnar,MNAR Missingness,0.3,1,p (miss rate),IneffectiveDisasterPreparedness,Socio-Political,XGBoost,0.010966424139748413,0.9517131828467864,3.660485601221855e-05,0.3349081541237133
+mnar,MNAR Missingness,0.3,1,p (miss rate),DrainageSystems,Infrastructure,Linear Regression,0.0015039238058929816,0.9990918655101084,0.0015039238058925564,353608926519267.1
+mnar,MNAR Missingness,0.3,1,p (miss rate),DrainageSystems,Infrastructure,XGBoost,0.011038555798731165,0.951075880672859,0.00010873651499497018,0.9948610509669857
+mnar,MNAR Missingness,0.3,1,p (miss rate),CoastalVulnerability,Physical / Environmental,Linear Regression,0.0014878103288737136,0.9991112212939233,0.0014878103288732884,349820257645916.4
+mnar,MNAR Missingness,0.3,1,p (miss rate),CoastalVulnerability,Physical / Environmental,XGBoost,0.011060606864347827,0.9508802198379811,0.00013078758061163195,1.196612471042835
+mnar,MNAR Missingness,0.3,1,p (miss rate),Landslides,Physical / Environmental,Linear Regression,0.0015165506246632796,0.9990765522516387,0.0015165506246628544,356577797557297.2
+mnar,MNAR Missingness,0.3,1,p (miss rate),Landslides,Physical / Environmental,XGBoost,0.011044671345726518,0.9510216560737862,0.00011485206199032295,1.0508139156630456
+mnar,MNAR Missingness,0.3,1,p (miss rate),Watersheds,Physical / Environmental,Linear Regression,0.0014544812263996203,0.9991505951388111,0.001454481226399195,341983778097193.4
+mnar,MNAR Missingness,0.3,1,p (miss rate),Watersheds,Physical / Environmental,XGBoost,0.011102598211008778,0.9505065475684066,0.00017277892727258354,1.5808031476758475
+mnar,MNAR Missingness,0.3,1,p (miss rate),DeterioratingInfrastructure,Infrastructure,Linear Regression,0.0015396725655445964,0.9990481790819531,0.0015396725655441711,362014326098204.25
+mnar,MNAR Missingness,0.3,1,p (miss rate),DeterioratingInfrastructure,Infrastructure,XGBoost,0.011021289470571684,0.9512288135837306,9.147018683548953e-05,0.836886543692439
+mnar,MNAR Missingness,0.3,1,p (miss rate),PopulationScore,Human / Land Use,Linear Regression,0.001466526748332352,0.9991364679136339,0.0014665267483319267,344815972164012.9
+mnar,MNAR Missingness,0.3,1,p (miss rate),PopulationScore,Human / Land Use,XGBoost,0.010927300941263282,0.9520570989532978,-2.5183424729128406e-06,-0.0230410257254682
+mnar,MNAR Missingness,0.3,1,p (miss rate),WetlandLoss,Physical / Environmental,Linear Regression,0.001493893201068253,0.9991039389421551,0.0014938932010678278,351250488285552.06
+mnar,MNAR Missingness,0.3,1,p (miss rate),WetlandLoss,Physical / Environmental,XGBoost,0.010987831552540602,0.951524478717515,5.80122688044072e-05,0.5307706129298103
+mnar,MNAR Missingness,0.3,1,p (miss rate),InadequatePlanning,Socio-Political,Linear Regression,0.0014429200377560987,0.9991640447470709,0.0014429200377556735,339265462521959.7
+mnar,MNAR Missingness,0.3,1,p (miss rate),InadequatePlanning,Socio-Political,XGBoost,0.01095171481781276,0.9518426306937301,2.1895534076565165e-05,0.20032841813904637
+mnar,MNAR Missingness,0.3,1,p (miss rate),PoliticalFactors,Socio-Political,Linear Regression,0.0014729307906632407,0.9991289096873985,0.0014729307906628155,346321717684588.4
+mnar,MNAR Missingness,0.3,1,p (miss rate),PoliticalFactors,Socio-Political,XGBoost,0.010930388780229311,0.9520299996951419,5.694964931163282e-07,0.005210484074185483
+mnar,MNAR Missingness,0.5,2,p (miss rate),MonsoonIntensity,Physical / Environmental,Linear Regression,0.002735118121771014,0.9969963406564849,0.0027351181217705888,643092541758587.1
+mnar,MNAR Missingness,0.5,2,p (miss rate),MonsoonIntensity,Physical / Environmental,XGBoost,0.011109798348354178,0.9504423328324155,0.0001799790646179831,1.6466792354544764
+mnar,MNAR Missingness,0.5,2,p (miss rate),TopographyDrainage,Physical / Environmental,Linear Regression,0.0026847883999414858,0.9971058660515709,0.0026847883999410603,631258804678010.4
+mnar,MNAR Missingness,0.5,2,p (miss rate),TopographyDrainage,Physical / Environmental,XGBoost,0.010976738450056497,0.9516223092084626,4.691916632030245e-05,0.4292766888663857
+mnar,MNAR Missingness,0.5,2,p (miss rate),RiverManagement,Infrastructure,Linear Regression,0.002661045664382,0.9971568278483501,0.0026610456643815744,625676312266542.8
+mnar,MNAR Missingness,0.5,2,p (miss rate),RiverManagement,Infrastructure,XGBoost,0.011072499035219105,0.9507745375992025,0.00014267975148291034,1.3054172972028995
+mnar,MNAR Missingness,0.5,2,p (miss rate),Deforestation,Human / Land Use,Linear Regression,0.002685457022708153,0.9971044243552305,0.0026854570227077277,631416014091041.2
+mnar,MNAR Missingness,0.5,2,p (miss rate),Deforestation,Human / Land Use,XGBoost,0.011094541006931058,0.9505783567326039,0.000164721723194863,1.507085514579115
+mnar,MNAR Missingness,0.5,2,p (miss rate),Urbanization,Human / Land Use,Linear Regression,0.0026533850160949833,0.9971731741975537,0.002653385016094558,623875108238386.5
+mnar,MNAR Missingness,0.5,2,p (miss rate),Urbanization,Human / Land Use,XGBoost,0.01109060540180148,0.9506134135365006,0.00016078611806528455,1.4710775529888014
+mnar,MNAR Missingness,0.5,2,p (miss rate),ClimateChange,Socio-Political,Linear Regression,0.0026788748807776938,0.9971186012588121,0.0026788748807772683,629868393039291.2
+mnar,MNAR Missingness,0.5,2,p (miss rate),ClimateChange,Socio-Political,XGBoost,0.01107476555953849,0.9507543827766118,0.0001449462758022959,1.3261543676022078
+mnar,MNAR Missingness,0.5,2,p (miss rate),DamsQuality,Infrastructure,Linear Regression,0.002676374864878678,0.9971239767852484,0.0026763748648782524,629280578726579.2
+mnar,MNAR Missingness,0.5,2,p (miss rate),DamsQuality,Infrastructure,XGBoost,0.011183423062112117,0.9497833183619414,0.00025360377837592256,2.3202925116364037
+mnar,MNAR Missingness,0.5,2,p (miss rate),Siltation,Physical / Environmental,Linear Regression,0.0026602916855030722,0.9971584387850463,0.002660291685502647,625499033563359.0
+mnar,MNAR Missingness,0.5,2,p (miss rate),Siltation,Physical / Environmental,XGBoost,0.011038619903276642,0.9510753124341154,0.00010880061954044763,0.9954475615378681
+mnar,MNAR Missingness,0.5,2,p (miss rate),AgriculturalPractices,Human / Land Use,Linear Regression,0.002724014441970514,0.9970206788910261,0.0027240144419700884,640481797597689.6
+mnar,MNAR Missingness,0.5,2,p (miss rate),AgriculturalPractices,Human / Land Use,XGBoost,0.011163989472244402,0.9499576911780098,0.00023417018850820787,2.142489115594602
+mnar,MNAR Missingness,0.5,2,p (miss rate),Encroachments,Human / Land Use,Linear Regression,0.0026630569510833935,0.997152528338962,0.002663056951082968,626149214503089.4
+mnar,MNAR Missingness,0.5,2,p (miss rate),Encroachments,Human / Land Use,XGBoost,0.011098147073032456,0.9505462244117694,0.0001683277892962614,1.540078430635507
+mnar,MNAR Missingness,0.5,2,p (miss rate),IneffectiveDisasterPreparedness,Socio-Political,Linear Regression,0.00268336186235256,0.9971089407773263,0.0026833618623521346,630923391126151.5
+mnar,MNAR Missingness,0.5,2,p (miss rate),IneffectiveDisasterPreparedness,Socio-Political,XGBoost,0.011031013243522543,0.9511427167347569,0.00010119395978634878,0.9258520855594342
+mnar,MNAR Missingness,0.5,2,p (miss rate),DrainageSystems,Infrastructure,Linear Regression,0.002693502077922205,0.9970870493168215,0.0026935020779217797,633307601501841.4
+mnar,MNAR Missingness,0.5,2,p (miss rate),DrainageSystems,Infrastructure,XGBoost,0.011074921094662571,0.9507529995460724,0.0001451018109263763,1.3275774023298894
+mnar,MNAR Missingness,0.5,2,p (miss rate),CoastalVulnerability,Physical / Environmental,Linear Regression,0.0027136893453732127,0.9970432217073144,0.0027136893453727873,638054117212769.8
+mnar,MNAR Missingness,0.5,2,p (miss rate),CoastalVulnerability,Physical / Environmental,XGBoost,0.01111819588778551,0.9503673864233044,0.00018837660404931456,1.7235106927122115
+mnar,MNAR Missingness,0.5,2,p (miss rate),Landslides,Physical / Environmental,Linear Regression,0.0027151847499848744,0.9970399620872116,0.002715184749984449,638405723070307.1
+mnar,MNAR Missingness,0.5,2,p (miss rate),Landslides,Physical / Environmental,XGBoost,0.011010122304347555,0.9513275969474675,8.030302061136016e-05,0.7347149895776665
+mnar,MNAR Missingness,0.5,2,p (miss rate),Watersheds,Physical / Environmental,Linear Regression,0.0026145156481103713,0.9972553877772055,0.002614515648109946,614735978028685.6
+mnar,MNAR Missingness,0.5,2,p (miss rate),Watersheds,Physical / Environmental,XGBoost,0.011134178324752074,0.9502245898265196,0.00020435904101587937,1.8697385172687164
+mnar,MNAR Missingness,0.5,2,p (miss rate),DeterioratingInfrastructure,Infrastructure,Linear Regression,0.0027396163672923314,0.9969864527415807,0.002739616367291906,644150188272181.0
+mnar,MNAR Missingness,0.5,2,p (miss rate),DeterioratingInfrastructure,Infrastructure,XGBoost,0.011053810042200402,0.9509405702029445,0.00012399075846420728,1.1344264277883183
+mnar,MNAR Missingness,0.5,2,p (miss rate),PopulationScore,Human / Land Use,Linear Regression,0.00266538365707923,0.997147550508047,0.0026653836570788045,626696279458301.8
+mnar,MNAR Missingness,0.5,2,p (miss rate),PopulationScore,Human / Land Use,XGBoost,0.011029505550362594,0.9511560712210958,9.968626662639965e-05,0.9120577755090146
+mnar,MNAR Missingness,0.5,2,p (miss rate),WetlandLoss,Physical / Environmental,Linear Regression,0.0027020009654898708,0.9970686376745594,0.0027020009654894453,635305895895237.8
+mnar,MNAR Missingness,0.5,2,p (miss rate),WetlandLoss,Physical / Environmental,XGBoost,0.011012903292455689,0.9513030060364966,8.30840087194945e-05,0.7601590343138179
+mnar,MNAR Missingness,0.5,2,p (miss rate),InadequatePlanning,Socio-Political,Linear Regression,0.0026404629996298807,0.9972006405039817,0.0026404629996294553,620836829069730.6
+mnar,MNAR Missingness,0.5,2,p (miss rate),InadequatePlanning,Socio-Political,XGBoost,0.011106778880141409,0.95046926715857,0.00017695959640521425,1.6190532689642354
+mnar,MNAR Missingness,0.5,2,p (miss rate),PoliticalFactors,Socio-Political,Linear Regression,0.002651806317316783,0.9971765369804241,0.0026518063173163577,623503917904096.1
+mnar,MNAR Missingness,0.5,2,p (miss rate),PoliticalFactors,Socio-Political,XGBoost,0.011001485061877455,0.9514039322394588,7.166577814126003e-05,0.6556904215964507
